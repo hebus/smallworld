@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HBSFirstViewController : UIViewController
+@interface HBSFirstViewController : UITableViewController
+
+@property (strong, nonatomic) NSManagedObjectContext *managedObjectContext;
 
 @end

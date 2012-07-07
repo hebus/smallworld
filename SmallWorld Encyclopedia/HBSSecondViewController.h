@@ -1,5 +1,5 @@
 //
-//  HBSSecondViewController.h
+//  HBSFirstViewController.h
 //  SmallWorld Encyclopedia
 //
 //  Created by Olivier on 22/06/12.
@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HBSSecondViewController : UIViewController
+@interface HBSSecondViewController : UITableViewController
+
+@property (strong, nonatomic) NSManagedObjectContext *managedObjectContext;
 
 @end
