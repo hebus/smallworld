@@ -58,6 +58,8 @@
     Peuple *peuple = [self.fetchedResultsController objectAtIndexPath:indexPath];
     cell.textLabel.text = peuple.name;
     cell.detailTextLabel.text = peuple.extension;
+    cell.imageView.image = [UIImage imageNamed:peuple.image];
+    
     
     return cell;
 }

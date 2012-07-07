@@ -1,41 +1,356 @@
-(
-{peuple="Amazones";extension="Small World";pouvoir="La valeur +4 indiquée sur la tuile Amazones signifie que vous prenez 4 pions supplémentaires(donc 10 en tout, auxquels il faut encore ajouter ceux du Pouvoir Spécial),mais ces 4 pions sont réservés à l'attaque uniquement et ne servent pas en défense. Après avoir redéployé vos troupes (voir Redéploiement, p.5), retirez donc quatre pions Amazones du plateau et mettez-les de côté, en prenant soin de laisser tout de même 1 pion Amazone dans chaque région occupée, dans la mesure du possible. Reprenez vos 4 pions en main au début du prochain tour, au moment de préparer ses troupes (voir Préparer ses troupes, p. 6).";},
-{peuple="Elfes";extension="Small World";pouvoir="Lorsque l'ennemi s'empare d'une de vos régions, vous reprenez en main tous les pions Elfes qui l'occupaient, sans devoir en défausser un (Pertes ennemies et retraites,p. 4). Redéployez ces pions comme d'habitude lorsque l'adversaire a fini son tour.";},
-{peuple="Géants";extension="Small World";pouvoir="Vos Géants peuvent conquérir toute région adjacente à une Montagne qu'ils occupent avec 1 pion de moins que nécessaire, avec un minimum de 1 pion.";},
-{peuple="Homme-rats";extension="Small World";pouvoir="Pas de capacité spécifique, ils sont déjà bien assez nombreux !";},
-{peuple="Humains";extension="Small World";pouvoir="Tout Champ occupé par vos Humains rapporte 1 jeton de victoire supplémentaire en fin de tour.";},
-{peuple="Mages";extension="Small World";pouvoir="Toute région qui comporte une Source magique occupée par vos Mages rapporte 1 jeton de victoire supplémentaire en fin de tour.";},
-{peuple="Mi-Portions";extension="Small World";pouvoir="Vos Mi-portions peuvent entrer sur le plateau par n'importe quelle région, pas seulement par un bord de plateau. Placez une Tanière dans les deux premières régions que vous prenez. Ces régions sont à présent imprenables et immunisées contre les capacités spécifiques et Pouvoirs Spéciaux des autres Peuples. Si une de ces régions est abandonnée par les Mi-portions, la Tanière qui s'y trouve est retirée du plateau. En déclin, les deux Tanières disparaissent.";},
-{peuple="Nains";extension="Small World";pouvoir="Toute région qui comporte une Mine occupée par vos Nains rapporte 1 jeton de victoire supplémentaire en fin de tour. Ce pouvoir continue de s'appliquer même s'ils sont en déclin.";},
-{peuple="Orcs";extension="Small World";pouvoir="Toute région non-vide conquise par vos Orcs durant ce tour rapporte 1 jeton de victoire supplémentaire en fin de tour.";},
-{peuple="Sorciers";extension="Small World";pouvoir="À chaque tour, vos Sorciers peuvent remplacer un pion actif de chaque adversaire par un des leurs, pris dans le casier de rangement (sous réserve qu'il en reste), pour conquérir une région. Le pion en question doit être le seul de son Peuple dans la région (un Troll dans son Antre est considéré comme étant tout seul ; de même, une Montagne ou une Forteresse ne protègent pas un pion contre ce genre de conquête). Cette région doit être adjacente à une région appartenant aux Sorciers. Le pion adverse remplacé est remis dans le casier de rangement : un Elfe converti ne revient pas dans la main de son possesseur !";},
-{peuple="Squelettes";extension="Small World";pouvoir="Lors du Redéploiement de vos troupes (voir Redéploiement, p.5), prenez 1 nouveau pion Squelette dans le casier de rangement (sous réserve qu'il en reste) pour toute série de 2 régions non-vides conquises par vos Squelettes lors de ce tour, et ajoutez ce pion à ceux que vous redéployez à la fin de votre tour.";},
-{peuple="Tritons";extension="Small World";pouvoir="Vos Tritons peuvent conquérir toute région côtière (adjacente aux mers ou au lac) avec 1 pion de moins que nécessaire, avec un minimum de 1 pion.";},
-{peuple="Trolls";extension="Small World";pouvoir="Placez un Antre de Troll dans chaque région occupée par vos Trolls. L'Antre de Troll augmente la défense de la région d'un point (comme si vous aviez un pion de Peuple supplémentaire) et reste dans la région même lorsque vos Trolls sont en déclin. Si vous quittez la région ou qu'un adversaire vous en chasse, retirez l'Antre de Troll.";},
-{peuple="Zombies";extension="Small World";pouvoir="Lorsque vos Zombies passent en déclin,tous leurs pions restent sur le plateau ! De plus, contrairement aux autres Peuples en déclin, ils peuvent continuer à conquérir de nouvelles régions lors des prochains tours et se comportent exactement comme un Peuple actif (même lorsqu'ils sont attaqués), mais leurs conquêtes doivent être faites au début de votre tour, avant les conquêtes de votre Peuple actif. Un joueur a le droit d'attaquer son Peuple actif avec ses Zombies en déclin.";},
-{peuple="Gobelins";extension="Maauuudits!";pouvoir="Toute région occupée par un Peuple en déclin peut être conquise avec 1 Gobelin de moins que nécessaire, avec un minimum de 1 Gobelin.";},
-{peuple="Kobolds";extension="Maauuudits!";pouvoir="Vous ne pouvez jamais occuper (ou conquérir) une région avec moins de deux Kobolds, sauf lorsque vous êtes en déclin : dans ce cas ne laissez qu'un seul Kobold par région.";},
-{peuple="Dames blanches";extension="Honneur aux Dames!";pouvoir="À partir du moment où les Dames Blanches sont en déclin, les régions qu’elles occupent deviennent imprenables et immunisées aux capacités spécifiques et aux Pouvoirs Spéciaux des Peuples adverses !";},
-{peuple="Gitanes";extension="Honneur aux Dames!";pouvoir="Lors de votre tour, placez un jeton de victoire (pris dans la réserve) dans chaque région que vous décidez d’abandonner. Vous ne pouvez pas attaquer ces régions lors de ce tour, mais vous récupérez les jetons de victoire déposés dessus à l'issue de celui-ci.";},
-{peuple="Prêtresses";extension="Honneur aux Dames!";pouvoir="Lorsque les Prêtresses passent en déclin, conservez autant de Prêtresses que de régions en leur possession, et regroupez-les en une seule pile dans une de ces régions. Cette pile forme leur Tour d'Ivoire. Chaque pion dans la Tour d'Ivoire rapporte un jeton de victoire par tour, mais la région elle-même ne rapporte aucun jeton.La Tour peut parfaitement être conquise par l'ennemi (à condition d'avoir assez de pions pour la vaincre, ou d'utiliser un Dragon). La Tour d'Ivoire peut être construite sur une Forteresse si vos Prêtresses possédaient le pouvoir Bâtisseurs.";},
-{peuple="Barbares";extension="Même pas peur!";pouvoir="Vos Barbares ne peuvent pas se redéployer à la fin de leur tour. En cas d'échec au dé lors de votre dernière conquête, vos Barbares non utilisées doivent rester en dehors du plateau.";},
-{peuple="Farfadets";extension="Même pas peur!";pouvoir="Lors du Redéploiement, vous pouvez placer un Chaudron par région occupée par vos Farfadets. Tout Chaudron vous rapporte 1 jeton de victoire s'il est toujours en place au début de votre prochain tour : placez alors le Chaudron parmi vos jetons de victoire. Si un adversaire prend une région contenant un Chaudron, il le récupère immédiatement. Tant qu'il vous reste des Chaudrons, vous pouvez en placer lors de vos phases de Redéploiement. Les Chaudrons non-utilisés sont perdus lors du déclin.";},
-{peuple="Fées";extension="Même pas peur!";pouvoir="Lors du Redéploiement, vous ne devez laisser qu'une seule Fée par région en votre possession. Toutes les autres restent en dehors du plateau jusqu'au prochain tour.";},
-{peuple="Homoncules";extension="Même pas peur!";pouvoir="À chaque fois qu'un joueur choisit une combinaison placée plus bas que celle des Homoncules, il place un Homoncule sur leur combinaison en plus d'un jeton de victoire. Lorsque par la suite un joueur choisit les Homoncules, il récupère les pions ainsi déposés en plus des jetons de victoire et des pions auxquels il a normalement droit grâce à la combinaison (dans la limite de 15 pions).";},
-{peuple="Pygmées";extension="Même pas peur!";pouvoir="À chaque fois que vous perdez un Pygmée, lancez le dé de renforts et prenez autant de Pygmées dans la réserve que le résultat du dé, à condition qu'il en reste. Déployez-les dans vos régions à la fin du tour du joueur attaquant.";},
-{peuple="Arachnées";extension="Underground";pouvoir="Pour vos conquêtes, vos Arachnées considèrent toutes les régions partageant une frontière avec un Gouffre sans fond comme adjacentes aux régions qu'elles occupent.Votre première conquête peut être n'importe quelle région partageant une frontière avec un Gouffre sans fond.";},
-{peuple="Champigneux";extension="Underground";pouvoir="Toute Champignonnière occupée par vos Champigneux rapporte 1 jeton de victoire supplémentaire en fin detour.";},
-{peuple="Cultistes";extension="Underground";pouvoir="Placez le Grand Ancien dans la première région conquise par vos Cultistes. Cette région est imprenable. De plus, toute région adjacente au Grand Ancien peut être conquise avec un pion de Peuple de moins que nécessaire, avec un minimum de 1 pion (ceci comprend également les régions rendues adjacentes par l'effet d'une capacité spécifique, d'un Pouvoir Spécial, d'une Relique ou d'un Lieu). Au début de votre tour, vous pouvez déplacer le Grand Ancien dans toute région occupée par vos Cultistes.";},
-{peuple="Elfes Noirs";extension="Underground";pouvoir="Les Elfes Noirs vivent reclus : à la fin de chaque tour, toute région occupée par vos Elfes Noirs et ne partageant aucune frontière avec un autre Peuple actif ou en déclin (votre autre Peuple, ceux de vos adversaires, ou des Monstres) vous rapporte 1 jeton de victoire supplémentaire.";},
-{peuple="Feux Follets";extension="Underground";pouvoir="Vous pouvez utiliser le dé de renforts avant de tenter de conquérir une région de cristaux mystiques ou une région adjacente à une région de cristaux mystiques que vos Feux Follets occupent. Indiquez la région visée avant de lancer le dé. En cas de succès, vous êtes obligé de prendre la région, pour peu que vous ayez assez de pions de Peuple.";},
-{peuple="Flammes";extension="Underground";pouvoir="Lorsque vous choisissez ce Peuple, placez le volcan sur un des Gouffres sans fond contenant un symbole de volcan. Toute région adjacente au volcan ou reliée de façon continue à celui-ci par des régions occupées par vos Flammes peut être conquise par ces dernières comme si elle était vide.";},
-{peuple="Gekkos";extension="Underground";pouvoir="Vos Gekkos peuvent traverser toute région de rivière, occupée ou non, sans être obligés de la conquérir ou d'y laisser des pions. Si vous souhaitez conquérir une région de rivière occupée (par des Poulpeuses, par exemple), vous devez avoir assez de pions pour le faire, mais les pions utilisés sont redéployés à la fin du tour dans d'autres régions occupés par vos Gekkos. Ils ne doivent en aucun cas rester dans la rivière.";},
-{peuple="Gnomes";extension="Underground";pouvoir="Durant leur tour, les autres joueurs ne peuvent pas utiliser les capacités spécifiques de leur Peuple, ni leur Pouvoir Spécial, pour conquérir des régions occupées parvos Gnomes. Il en va de même pour les Lieux Légendaires et les Reliques Rustiques. Les effets de cette capacité peuvent être indirects : un joueur qui dispose du Tuyau Tortueux (voir p.15) ne pourra pas attaquer vos Gnomes à distance, par exemple. Un Balrog ne pourra pas conquérir une région défendue par des Gnomes. Attention, l'immunité des Gnomes ne fonctionne que pendant le tour des autres joueurs. Pendant le tour des Gnomes, les Lieux Légendaires, Reliques Rustiques, etc. fonctionnent normalement.";},
-{peuple="Golems";extension="Underground";pouvoir="Lors du Redéploiement de vos troupes, prenez 1 nouveau pion Golem dans le casier de rangement (sous réserve qu'ilen reste) pour toute mare de boue occupée par vos Golems.";},
-{peuple="Liches";extension="Underground";pouvoir="Lorsqu'un adversaire s'empare d'une région occupée par vos Liches en déclin, vous lui prenez immédiatement un jeton de victoire. S'il n'en a plus, il ne peut pas attaquer vos Liches en déclin.";},
-{peuple="Mimics";extension="Underground";pouvoir="Lorsque vous choisissez ce Peuple (p.4), vous pouvez immédiatement échanger leur Pouvoir Spécial contre un des cinq autres disponibles parmi les combinaisons visibles. Vous ne récupérez pas les éventuels jetons de victoire déposés sur la combinaison dont vous prenez le Pouvoir Spécial. Seul le Pouvoir Spécial est échangé.";},
-{peuple="Momies";extension="Underground";pouvoir="Les Momies sont nombreuses, mais maladroites- ce n'est pas simple de marcher avec tant de bandages. Toutes vos conquêtes nécessitent 1 pion de plus que nécessaire.";},
-{peuple="Nains de Fer & Leurs Marteaux d'argent";extension="Underground";pouvoir="Lors du Redéploiement de vos troupes, prenez 1 nouveau pion de Marteau d'argent pour chaque Mine que vos Nains de Fer occupent, et placez-le devant vous. À compter du prochain tour, et jusqu'à ce que vos Nains de Fer passent en déclin, vous pouvez utiliser ces Marteaux d'argent comme autant de pions supplémentaires qui vous serviront en attaque uniquement. À chaque tour, après avoir redéployé vos troupes (voir Redéploiement p.7), retirez tous les Marteaux d'argent du plateau et replacez-les devant vous dans l'attente du prochain tour, en prenant soin de laisser au moins un pion Nain de Fer dans chaque région occupée, dans la mesure du possible.";},
-{peuple="Orgres";extension="Underground";pouvoir="Vos Ogres peuvent conquérir toute région avec 1 pion de moins que nécessaire, avec un minimum de 1 pion.";},
-{peuple="Poulpeuses";extension="Underground";pouvoir="À la fin de votre tour, vos Poulpeuses ne sont pas obligées de quitter les éventuelles régions de rivière conquises. Elles peuvent y rester et marquer un point par région ainsi occupée, y compris lors du déclin. Vos adversaires doivent obligatoirement conquérir la région s'ils veulent y passer pour traverser la rivière.";}
-)
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>image</key>
+		<string>Amazon</string>
+		<key>peuple</key>
+		<string>Amazones</string>
+		<key>extension</key>
+		<string>Small World</string>
+		<key>pouvoir</key>
+		<string>La valeur +4 indiquée sur la tuile Amazones signifie que vous prenez 4 pions supplémentaires(donc 10 en tout, auxquels il faut encore ajouter ceux du Pouvoir Spécial),mais ces 4 pions sont réservés à l&apos;attaque uniquement et ne servent pas en défense. Après avoir redéployé vos troupes (voir Redéploiement, p.5), retirez donc quatre pions Amazones du plateau et mettez-les de côté, en prenant soin de laisser tout de même 1 pion Amazone dans chaque région occupée, dans la mesure du possible. Reprenez vos 4 pions en main au début du prochain tour, au moment de préparer ses troupes (voir Préparer ses troupes, p. 6).</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>Elf</string>
+		<key>peuple</key>
+		<string>Elfes</string>
+		<key>extension</key>
+		<string>Small World</string>
+		<key>pouvoir</key>
+		<string>Lorsque l&apos;ennemi s&apos;empare d&apos;une de vos régions, vous reprenez en main tous les pions Elfes qui l&apos;occupaient, sans devoir en défausser un (Pertes ennemies et retraites,p. 4). Redéployez ces pions comme d&apos;habitude lorsque l&apos;adversaire a fini son tour.</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>Giant</string>
+		<key>peuple</key>
+		<string>Géants</string>
+		<key>extension</key>
+		<string>Small World</string>
+		<key>pouvoir</key>
+		<string>Vos Géants peuvent conquérir toute région adjacente à une Montagne qu&apos;ils occupent avec 1 pion de moins que nécessaire, avec un minimum de 1 pion.</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>Ratman</string>
+		<key>peuple</key>
+		<string>Homme-rats</string>
+		<key>extension</key>
+		<string>Small World</string>
+		<key>pouvoir</key>
+		<string>Pas de capacité spécifique, ils sont déjà bien assez nombreux !</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>Human</string>
+		<key>peuple</key>
+		<string>Humains</string>
+		<key>extension</key>
+		<string>Small World</string>
+		<key>pouvoir</key>
+		<string>Tout Champ occupé par vos Humains rapporte 1 jeton de victoire supplémentaire en fin de tour.</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>Wizard</string>
+		<key>peuple</key>
+		<string>Mages</string>
+		<key>extension</key>
+		<string>Small World</string>
+		<key>pouvoir</key>
+		<string>Toute région qui comporte une Source magique occupée par vos Mages rapporte 1 jeton de victoire supplémentaire en fin de tour.</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>Halfling</string>
+		<key>peuple</key>
+		<string>Mi-Portions</string>
+		<key>extension</key>
+		<string>Small World</string>
+		<key>pouvoir</key>
+		<string>Vos Mi-portions peuvent entrer sur le plateau par n&apos;importe quelle région, pas seulement par un bord de plateau. Placez une Tanière dans les deux premières régions que vous prenez. Ces régions sont à présent imprenables et immunisées contre les capacités spécifiques et Pouvoirs Spéciaux des autres Peuples. Si une de ces régions est abandonnée par les Mi-portions, la Tanière qui s&apos;y trouve est retirée du plateau. En déclin, les deux Tanières disparaissent.</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>Dwarf</string>
+		<key>peuple</key>
+		<string>Nains</string>
+		<key>extension</key>
+		<string>Small World</string>
+		<key>pouvoir</key>
+		<string>Toute région qui comporte une Mine occupée par vos Nains rapporte 1 jeton de victoire supplémentaire en fin de tour. Ce pouvoir continue de s&apos;appliquer même s&apos;ils sont en déclin.</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>Orc</string>
+		<key>peuple</key>
+		<string>Orcs</string>
+		<key>extension</key>
+		<string>Small World</string>
+		<key>pouvoir</key>
+		<string>Toute région non-vide conquise par vos Orcs durant ce tour rapporte 1 jeton de victoire supplémentaire en fin de tour.</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>Sorcerer</string>
+		<key>peuple</key>
+		<string>Sorciers</string>
+		<key>extension</key>
+		<string>Small World</string>
+		<key>pouvoir</key>
+		<string>À chaque tour, vos Sorciers peuvent remplacer un pion actif de chaque adversaire par un des leurs, pris dans le casier de rangement (sous réserve qu&apos;il en reste), pour conquérir une région. Le pion en question doit être le seul de son Peuple dans la région (un Troll dans son Antre est considéré comme étant tout seul ; de même, une Montagne ou une Forteresse ne protègent pas un pion contre ce genre de conquête). Cette région doit être adjacente à une région appartenant aux Sorciers. Le pion adverse remplacé est remis dans le casier de rangement : un Elfe converti ne revient pas dans la main de son possesseur !</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>Skeleton</string>
+		<key>peuple</key>
+		<string>Squelettes</string>
+		<key>extension</key>
+		<string>Small World</string>
+		<key>pouvoir</key>
+		<string>Lors du Redéploiement de vos troupes (voir Redéploiement, p.5), prenez 1 nouveau pion Squelette dans le casier de rangement (sous réserve qu&apos;il en reste) pour toute série de 2 régions non-vides conquises par vos Squelettes lors de ce tour, et ajoutez ce pion à ceux que vous redéployez à la fin de votre tour.</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>Triton</string>
+		<key>peuple</key>
+		<string>Tritons</string>
+		<key>extension</key>
+		<string>Small World</string>
+		<key>pouvoir</key>
+		<string>Vos Tritons peuvent conquérir toute région côtière (adjacente aux mers ou au lac) avec 1 pion de moins que nécessaire, avec un minimum de 1 pion.</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>Troll</string>
+		<key>peuple</key>
+		<string>Trolls</string>
+		<key>extension</key>
+		<string>Small World</string>
+		<key>pouvoir</key>
+		<string>Placez un Antre de Troll dans chaque région occupée par vos Trolls. L&apos;Antre de Troll augmente la défense de la région d&apos;un point (comme si vous aviez un pion de Peuple supplémentaire) et reste dans la région même lorsque vos Trolls sont en déclin. Si vous quittez la région ou qu&apos;un adversaire vous en chasse, retirez l&apos;Antre de Troll.</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>Ghoul</string>
+		<key>peuple</key>
+		<string>Zombies</string>
+		<key>extension</key>
+		<string>Small World</string>
+		<key>pouvoir</key>
+		<string>Lorsque vos Zombies passent en déclin,tous leurs pions restent sur le plateau ! De plus, contrairement aux autres Peuples en déclin, ils peuvent continuer à conquérir de nouvelles régions lors des prochains tours et se comportent exactement comme un Peuple actif (même lorsqu&apos;ils sont attaqués), mais leurs conquêtes doivent être faites au début de votre tour, avant les conquêtes de votre Peuple actif. Un joueur a le droit d&apos;attaquer son Peuple actif avec ses Zombies en déclin.</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>Goblin</string>
+		<key>peuple</key>
+		<string>Gobelins</string>
+		<key>extension</key>
+		<string>Maauuudits!</string>
+		<key>pouvoir</key>
+		<string>Toute région occupée par un Peuple en déclin peut être conquise avec 1 Gobelin de moins que nécessaire, avec un minimum de 1 Gobelin.</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>Kobold</string>
+		<key>peuple</key>
+		<string>Kobolds</string>
+		<key>extension</key>
+		<string>Maauuudits!</string>
+		<key>pouvoir</key>
+		<string>Vous ne pouvez jamais occuper (ou conquérir) une région avec moins de deux Kobolds, sauf lorsque vous êtes en déclin : dans ce cas ne laissez qu&apos;un seul Kobold par région.</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>WhiteLady</string>
+		<key>peuple</key>
+		<string>Dames blanches</string>
+		<key>extension</key>
+		<string>Honneur aux Dames!</string>
+		<key>pouvoir</key>
+		<string>À partir du moment où les Dames Blanches sont en déclin, les régions qu’elles occupent deviennent imprenables et immunisées aux capacités spécifiques et aux Pouvoirs Spéciaux des Peuples adverses !</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>Gypsy</string>
+		<key>peuple</key>
+		<string>Gitanes</string>
+		<key>extension</key>
+		<string>Honneur aux Dames!</string>
+		<key>pouvoir</key>
+		<string>Lors de votre tour, placez un jeton de victoire (pris dans la réserve) dans chaque région que vous décidez d’abandonner. Vous ne pouvez pas attaquer ces régions lors de ce tour, mais vous récupérez les jetons de victoire déposés dessus à l&apos;issue de celui-ci.</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>Priestress</string>
+		<key>peuple</key>
+		<string>Prêtresses</string>
+		<key>extension</key>
+		<string>Honneur aux Dames!</string>
+		<key>pouvoir</key>
+		<string>Lorsque les Prêtresses passent en déclin, conservez autant de Prêtresses que de régions en leur possession, et regroupez-les en une seule pile dans une de ces régions. Cette pile forme leur Tour d&apos;Ivoire. Chaque pion dans la Tour d&apos;Ivoire rapporte un jeton de victoire par tour, mais la région elle-même ne rapporte aucun jeton.La Tour peut parfaitement être conquise par l&apos;ennemi (à condition d&apos;avoir assez de pions pour la vaincre, ou d&apos;utiliser un Dragon). La Tour d&apos;Ivoire peut être construite sur une Forteresse si vos Prêtresses possédaient le pouvoir Bâtisseurs.</string>
+	</dict>
+	<dict>
+		<key>peuple</key>
+		<string>Barbares</string>
+		<key>extension</key>
+		<string>Même pas peur!</string>
+		<key>pouvoir</key>
+		<string>Vos Barbares ne peuvent pas se redéployer à la fin de leur tour. En cas d&apos;échec au dé lors de votre dernière conquête, vos Barbares non utilisées doivent rester en dehors du plateau.</string>
+	</dict>
+	<dict>
+		<key>peuple</key>
+		<string>Farfadets</string>
+		<key>extension</key>
+		<string>Même pas peur!</string>
+		<key>pouvoir</key>
+		<string>Lors du Redéploiement, vous pouvez placer un Chaudron par région occupée par vos Farfadets. Tout Chaudron vous rapporte 1 jeton de victoire s&apos;il est toujours en place au début de votre prochain tour : placez alors le Chaudron parmi vos jetons de victoire. Si un adversaire prend une région contenant un Chaudron, il le récupère immédiatement. Tant qu&apos;il vous reste des Chaudrons, vous pouvez en placer lors de vos phases de Redéploiement. Les Chaudrons non-utilisés sont perdus lors du déclin.</string>
+	</dict>
+	<dict>
+		<key>peuple</key>
+		<string>Fées</string>
+		<key>extension</key>
+		<string>Même pas peur!</string>
+		<key>pouvoir</key>
+		<string>Lors du Redéploiement, vous ne devez laisser qu&apos;une seule Fée par région en votre possession. Toutes les autres restent en dehors du plateau jusqu&apos;au prochain tour.</string>
+	</dict>
+	<dict>
+		<key>peuple</key>
+		<string>Homoncules</string>
+		<key>extension</key>
+		<string>Même pas peur!</string>
+		<key>pouvoir</key>
+		<string>À chaque fois qu&apos;un joueur choisit une combinaison placée plus bas que celle des Homoncules, il place un Homoncule sur leur combinaison en plus d&apos;un jeton de victoire. Lorsque par la suite un joueur choisit les Homoncules, il récupère les pions ainsi déposés en plus des jetons de victoire et des pions auxquels il a normalement droit grâce à la combinaison (dans la limite de 15 pions).</string>
+	</dict>
+	<dict>
+		<key>peuple</key>
+		<string>Pygmées</string>
+		<key>extension</key>
+		<string>Même pas peur!</string>
+		<key>pouvoir</key>
+		<string>À chaque fois que vous perdez un Pygmée, lancez le dé de renforts et prenez autant de Pygmées dans la réserve que le résultat du dé, à condition qu&apos;il en reste. Déployez-les dans vos régions à la fin du tour du joueur attaquant.</string>
+	</dict>
+	<dict>
+		<key>peuple</key>
+		<string>Arachnées</string>
+		<key>extension</key>
+		<string>Underground</string>
+		<key>pouvoir</key>
+		<string>Pour vos conquêtes, vos Arachnées considèrent toutes les régions partageant une frontière avec un Gouffre sans fond comme adjacentes aux régions qu&apos;elles occupent.Votre première conquête peut être n&apos;importe quelle région partageant une frontière avec un Gouffre sans fond.</string>
+	</dict>
+	<dict>
+		<key>peuple</key>
+		<string>Champigneux</string>
+		<key>extension</key>
+		<string>Underground</string>
+		<key>pouvoir</key>
+		<string>Toute Champignonnière occupée par vos Champigneux rapporte 1 jeton de victoire supplémentaire en fin detour.</string>
+	</dict>
+	<dict>
+		<key>peuple</key>
+		<string>Cultistes</string>
+		<key>extension</key>
+		<string>Underground</string>
+		<key>pouvoir</key>
+		<string>Placez le Grand Ancien dans la première région conquise par vos Cultistes. Cette région est imprenable. De plus, toute région adjacente au Grand Ancien peut être conquise avec un pion de Peuple de moins que nécessaire, avec un minimum de 1 pion (ceci comprend également les régions rendues adjacentes par l&apos;effet d&apos;une capacité spécifique, d&apos;un Pouvoir Spécial, d&apos;une Relique ou d&apos;un Lieu). Au début de votre tour, vous pouvez déplacer le Grand Ancien dans toute région occupée par vos Cultistes.</string>
+	</dict>
+	<dict>
+		<key>peuple</key>
+		<string>Elfes Noirs</string>
+		<key>extension</key>
+		<string>Underground</string>
+		<key>pouvoir</key>
+		<string>Les Elfes Noirs vivent reclus : à la fin de chaque tour, toute région occupée par vos Elfes Noirs et ne partageant aucune frontière avec un autre Peuple actif ou en déclin (votre autre Peuple, ceux de vos adversaires, ou des Monstres) vous rapporte 1 jeton de victoire supplémentaire.</string>
+	</dict>
+	<dict>
+		<key>peuple</key>
+		<string>Feux Follets</string>
+		<key>extension</key>
+		<string>Underground</string>
+		<key>pouvoir</key>
+		<string>Vous pouvez utiliser le dé de renforts avant de tenter de conquérir une région de cristaux mystiques ou une région adjacente à une région de cristaux mystiques que vos Feux Follets occupent. Indiquez la région visée avant de lancer le dé. En cas de succès, vous êtes obligé de prendre la région, pour peu que vous ayez assez de pions de Peuple.</string>
+	</dict>
+	<dict>
+		<key>peuple</key>
+		<string>Flammes</string>
+		<key>extension</key>
+		<string>Underground</string>
+		<key>pouvoir</key>
+		<string>Lorsque vous choisissez ce Peuple, placez le volcan sur un des Gouffres sans fond contenant un symbole de volcan. Toute région adjacente au volcan ou reliée de façon continue à celui-ci par des régions occupées par vos Flammes peut être conquise par ces dernières comme si elle était vide.</string>
+	</dict>
+	<dict>
+		<key>peuple</key>
+		<string>Gekkos</string>
+		<key>extension</key>
+		<string>Underground</string>
+		<key>pouvoir</key>
+		<string>Vos Gekkos peuvent traverser toute région de rivière, occupée ou non, sans être obligés de la conquérir ou d&apos;y laisser des pions. Si vous souhaitez conquérir une région de rivière occupée (par des Poulpeuses, par exemple), vous devez avoir assez de pions pour le faire, mais les pions utilisés sont redéployés à la fin du tour dans d&apos;autres régions occupés par vos Gekkos. Ils ne doivent en aucun cas rester dans la rivière.</string>
+	</dict>
+	<dict>
+		<key>peuple</key>
+		<string>Gnomes</string>
+		<key>extension</key>
+		<string>Underground</string>
+		<key>pouvoir</key>
+		<string>Durant leur tour, les autres joueurs ne peuvent pas utiliser les capacités spécifiques de leur Peuple, ni leur Pouvoir Spécial, pour conquérir des régions occupées parvos Gnomes. Il en va de même pour les Lieux Légendaires et les Reliques Rustiques. Les effets de cette capacité peuvent être indirects : un joueur qui dispose du Tuyau Tortueux (voir p.15) ne pourra pas attaquer vos Gnomes à distance, par exemple. Un Balrog ne pourra pas conquérir une région défendue par des Gnomes. Attention, l&apos;immunité des Gnomes ne fonctionne que pendant le tour des autres joueurs. Pendant le tour des Gnomes, les Lieux Légendaires, Reliques Rustiques, etc. fonctionnent normalement.</string>
+	</dict>
+	<dict>
+		<key>peuple</key>
+		<string>Golems</string>
+		<key>extension</key>
+		<string>Underground</string>
+		<key>pouvoir</key>
+		<string>Lors du Redéploiement de vos troupes, prenez 1 nouveau pion Golem dans le casier de rangement (sous réserve qu&apos;ilen reste) pour toute mare de boue occupée par vos Golems.</string>
+	</dict>
+	<dict>
+		<key>peuple</key>
+		<string>Liches</string>
+		<key>extension</key>
+		<string>Underground</string>
+		<key>pouvoir</key>
+		<string>Lorsqu&apos;un adversaire s&apos;empare d&apos;une région occupée par vos Liches en déclin, vous lui prenez immédiatement un jeton de victoire. S&apos;il n&apos;en a plus, il ne peut pas attaquer vos Liches en déclin.</string>
+	</dict>
+	<dict>
+		<key>peuple</key>
+		<string>Mimics</string>
+		<key>extension</key>
+		<string>Underground</string>
+		<key>pouvoir</key>
+		<string>Lorsque vous choisissez ce Peuple (p.4), vous pouvez immédiatement échanger leur Pouvoir Spécial contre un des cinq autres disponibles parmi les combinaisons visibles. Vous ne récupérez pas les éventuels jetons de victoire déposés sur la combinaison dont vous prenez le Pouvoir Spécial. Seul le Pouvoir Spécial est échangé.</string>
+	</dict>
+	<dict>
+		<key>peuple</key>
+		<string>Momies</string>
+		<key>extension</key>
+		<string>Underground</string>
+		<key>pouvoir</key>
+		<string>Les Momies sont nombreuses, mais maladroites- ce n&apos;est pas simple de marcher avec tant de bandages. Toutes vos conquêtes nécessitent 1 pion de plus que nécessaire.</string>
+	</dict>
+	<dict>
+		<key>peuple</key>
+		<string>Nains de Fer &amp; Leurs Marteaux d&apos;argent</string>
+		<key>extension</key>
+		<string>Underground</string>
+		<key>pouvoir</key>
+		<string>Lors du Redéploiement de vos troupes, prenez 1 nouveau pion de Marteau d&apos;argent pour chaque Mine que vos Nains de Fer occupent, et placez-le devant vous. À compter du prochain tour, et jusqu&apos;à ce que vos Nains de Fer passent en déclin, vous pouvez utiliser ces Marteaux d&apos;argent comme autant de pions supplémentaires qui vous serviront en attaque uniquement. À chaque tour, après avoir redéployé vos troupes (voir Redéploiement p.7), retirez tous les Marteaux d&apos;argent du plateau et replacez-les devant vous dans l&apos;attente du prochain tour, en prenant soin de laisser au moins un pion Nain de Fer dans chaque région occupée, dans la mesure du possible.</string>
+	</dict>
+	<dict>
+		<key>peuple</key>
+		<string>Orgres</string>
+		<key>extension</key>
+		<string>Underground</string>
+		<key>pouvoir</key>
+		<string>Vos Ogres peuvent conquérir toute région avec 1 pion de moins que nécessaire, avec un minimum de 1 pion.</string>
+	</dict>
+	<dict>
+		<key>peuple</key>
+		<string>Poulpeuses</string>
+		<key>extension</key>
+		<string>Underground</string>
+		<key>pouvoir</key>
+		<string>À la fin de votre tour, vos Poulpeuses ne sont pas obligées de quitter les éventuelles régions de rivière conquises. Elles peuvent y rester et marquer un point par région ainsi occupée, y compris lors du déclin. Vos adversaires doivent obligatoirement conquérir la région s&apos;ils veulent y passer pour traverser la rivière.</string>
+	</dict>
+</array>
+</plist>

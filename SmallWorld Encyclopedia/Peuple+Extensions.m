@@ -2,6 +2,7 @@
 
 @implementation Peuple (Extensions)
 
+
 + (void)importDataToMoc:(NSManagedObjectContext *)moc
 {
 	NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] init];
@@ -22,6 +23,8 @@
 			peuple.name = [item valueForKey:@"peuple"];
 			peuple.extension = [item valueForKey:@"extension"];
 			peuple.pouvoir = [item valueForKey:@"pouvoir"];
+            peuple.image = [[item valueForKey:@"image"] stringByAppendingString:@"_Token.png"];
+            peuple.imageCard = [[item valueForKey:@"image"] stringByAppendingString:@"Card.png"];
 		}
 		
 		if (![moc save:&error])

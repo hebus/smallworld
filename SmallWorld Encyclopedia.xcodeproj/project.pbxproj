@@ -7,6 +7,73 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		093C06F815A828C800841051 /* Amazon_Token.png in Resources */ = {isa = PBXBuildFile; fileRef = 093C06E515A828C800841051 /* Amazon_Token.png */; };
+		093C06F915A828C800841051 /* Dwarf_Token.png in Resources */ = {isa = PBXBuildFile; fileRef = 093C06E615A828C800841051 /* Dwarf_Token.png */; };
+		093C06FA15A828C800841051 /* Elf_Token.png in Resources */ = {isa = PBXBuildFile; fileRef = 093C06E715A828C800841051 /* Elf_Token.png */; };
+		093C06FB15A828C800841051 /* Ghoul_Token.png in Resources */ = {isa = PBXBuildFile; fileRef = 093C06E815A828C800841051 /* Ghoul_Token.png */; };
+		093C06FC15A828C800841051 /* Giant_Token.png in Resources */ = {isa = PBXBuildFile; fileRef = 093C06E915A828C800841051 /* Giant_Token.png */; };
+		093C06FD15A828C800841051 /* Goblin_Token.png in Resources */ = {isa = PBXBuildFile; fileRef = 093C06EA15A828C800841051 /* Goblin_Token.png */; };
+		093C06FE15A828C800841051 /* Gypsy_Token.png in Resources */ = {isa = PBXBuildFile; fileRef = 093C06EB15A828C800841051 /* Gypsy_Token.png */; };
+		093C06FF15A828C800841051 /* Halfling_Token.png in Resources */ = {isa = PBXBuildFile; fileRef = 093C06EC15A828C800841051 /* Halfling_Token.png */; };
+		093C070015A828C800841051 /* Human_Token.png in Resources */ = {isa = PBXBuildFile; fileRef = 093C06ED15A828C800841051 /* Human_Token.png */; };
+		093C070115A828C800841051 /* Kobold_Token.png in Resources */ = {isa = PBXBuildFile; fileRef = 093C06EE15A828C800841051 /* Kobold_Token.png */; };
+		093C070215A828C800841051 /* Orc_Token.png in Resources */ = {isa = PBXBuildFile; fileRef = 093C06EF15A828C800841051 /* Orc_Token.png */; };
+		093C070315A828C800841051 /* Priestress_Token.png in Resources */ = {isa = PBXBuildFile; fileRef = 093C06F015A828C800841051 /* Priestress_Token.png */; };
+		093C070415A828C800841051 /* Ratman_Token.png in Resources */ = {isa = PBXBuildFile; fileRef = 093C06F115A828C800841051 /* Ratman_Token.png */; };
+		093C070515A828C800841051 /* Skeleton_Token.png in Resources */ = {isa = PBXBuildFile; fileRef = 093C06F215A828C800841051 /* Skeleton_Token.png */; };
+		093C070615A828C800841051 /* Sorcerer_Token.png in Resources */ = {isa = PBXBuildFile; fileRef = 093C06F315A828C800841051 /* Sorcerer_Token.png */; };
+		093C070715A828C800841051 /* Triton_Token.png in Resources */ = {isa = PBXBuildFile; fileRef = 093C06F415A828C800841051 /* Triton_Token.png */; };
+		093C070815A828C800841051 /* Troll_Token.png in Resources */ = {isa = PBXBuildFile; fileRef = 093C06F515A828C800841051 /* Troll_Token.png */; };
+		093C070915A828C800841051 /* WhiteLady_Token.png in Resources */ = {isa = PBXBuildFile; fileRef = 093C06F615A828C800841051 /* WhiteLady_Token.png */; };
+		093C070A15A828C800841051 /* Wizard_Token.png in Resources */ = {isa = PBXBuildFile; fileRef = 093C06F715A828C800841051 /* Wizard_Token.png */; };
+		093C072015A8329900841051 /* AmazonCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 093C070D15A8329900841051 /* AmazonCard.png */; };
+		093C072115A8329900841051 /* DwarfCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 093C070E15A8329900841051 /* DwarfCard.png */; };
+		093C072215A8329900841051 /* ElfCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 093C070F15A8329900841051 /* ElfCard.png */; };
+		093C072315A8329900841051 /* GhoulCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 093C071015A8329900841051 /* GhoulCard.png */; };
+		093C072415A8329900841051 /* GiantCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 093C071115A8329900841051 /* GiantCard.png */; };
+		093C072515A8329900841051 /* GoblinCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 093C071215A8329900841051 /* GoblinCard.png */; };
+		093C072615A8329900841051 /* GypsyCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 093C071315A8329900841051 /* GypsyCard.png */; };
+		093C072715A8329900841051 /* HalflingCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 093C071415A8329900841051 /* HalflingCard.png */; };
+		093C072815A8329900841051 /* HumanCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 093C071515A8329900841051 /* HumanCard.png */; };
+		093C072915A8329900841051 /* KoboldCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 093C071615A8329900841051 /* KoboldCard.png */; };
+		093C072A15A8329900841051 /* OrcCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 093C071715A8329900841051 /* OrcCard.png */; };
+		093C072B15A8329900841051 /* PriestressCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 093C071815A8329900841051 /* PriestressCard.png */; };
+		093C072C15A8329900841051 /* RatmanCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 093C071915A8329900841051 /* RatmanCard.png */; };
+		093C072D15A8329900841051 /* SkeletonCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 093C071A15A8329900841051 /* SkeletonCard.png */; };
+		093C072E15A8329900841051 /* SorcererCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 093C071B15A8329900841051 /* SorcererCard.png */; };
+		093C072F15A8329900841051 /* TritonCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 093C071C15A8329900841051 /* TritonCard.png */; };
+		093C073015A8329900841051 /* TrollCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 093C071D15A8329900841051 /* TrollCard.png */; };
+		093C073115A8329900841051 /* WhiteLadyCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 093C071E15A8329900841051 /* WhiteLadyCard.png */; };
+		093C073215A8329900841051 /* WizardCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 093C071F15A8329900841051 /* WizardCard.png */; };
+		093C074F15A83B7A00841051 /* AlchemistCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 093C073415A83B7A00841051 /* AlchemistCard.png */; };
+		093C075015A83B7A00841051 /* BerserkCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 093C073515A83B7A00841051 /* BerserkCard.png */; };
+		093C075115A83B7A00841051 /* BivouackingCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 093C073615A83B7A00841051 /* BivouackingCard.png */; };
+		093C075215A83B7A00841051 /* CommandoCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 093C073715A83B7A00841051 /* CommandoCard.png */; };
+		093C075315A83B7A00841051 /* CursedCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 093C073815A83B7A00841051 /* CursedCard.png */; };
+		093C075415A83B7A00841051 /* DiplomatCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 093C073915A83B7A00841051 /* DiplomatCard.png */; };
+		093C075515A83B7A00841051 /* DragonMasterCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 093C073A15A83B7A00841051 /* DragonMasterCard.png */; };
+		093C075615A83B7A00841051 /* FlyingCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 093C073B15A83B7A00841051 /* FlyingCard.png */; };
+		093C075715A83B7A00841051 /* ForestCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 093C073C15A83B7A00841051 /* ForestCard.png */; };
+		093C075815A83B7A00841051 /* FortifiedCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 093C073D15A83B7A00841051 /* FortifiedCard.png */; };
+		093C075915A83B7A00841051 /* HeroicCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 093C073E15A83B7A00841051 /* HeroicCard.png */; };
+		093C075A15A83B7A00841051 /* HillCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 093C073F15A83B7A00841051 /* HillCard.png */; };
+		093C075B15A83B7A00841051 /* HistorianCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 093C074015A83B7A00841051 /* HistorianCard.png */; };
+		093C075C15A83B7A00841051 /* HordesOfCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 093C074115A83B7A00841051 /* HordesOfCard.png */; };
+		093C075D15A83B7A00841051 /* MaraudingCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 093C074215A83B7A00841051 /* MaraudingCard.png */; };
+		093C075E15A83B7A00841051 /* MerchantCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 093C074315A83B7A00841051 /* MerchantCard.png */; };
+		093C075F15A83B7A00841051 /* MountedCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 093C074415A83B7A00841051 /* MountedCard.png */; };
+		093C076015A83B7A00841051 /* PeaceLovingCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 093C074515A83B7A00841051 /* PeaceLovingCard.png */; };
+		093C076115A83B7A00841051 /* PillagingCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 093C074615A83B7A00841051 /* PillagingCard.png */; };
+		093C076215A83B7A00841051 /* RansackingCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 093C074715A83B7A00841051 /* RansackingCard.png */; };
+		093C076315A83B7A00841051 /* SeafaringCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 093C074815A83B7A00841051 /* SeafaringCard.png */; };
+		093C076415A83B7A00841051 /* SpiritCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 093C074915A83B7A00841051 /* SpiritCard.png */; };
+		093C076515A83B7A00841051 /* StoutCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 093C074A15A83B7A00841051 /* StoutCard.png */; };
+		093C076615A83B7A00841051 /* SwampCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 093C074B15A83B7A00841051 /* SwampCard.png */; };
+		093C076715A83B7A00841051 /* UnderworldCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 093C074C15A83B7A00841051 /* UnderworldCard.png */; };
+		093C076815A83B7A00841051 /* WealthyCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 093C074D15A83B7A00841051 /* WealthyCard.png */; };
+		093C076915A83B7A00841051 /* WereCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 093C074E15A83B7A00841051 /* WereCard.png */; };
+		093C076B15A8402300841051 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 093C076A15A8402300841051 /* Icon@2x.png */; };
+		093C076D15A8402600841051 /* Icon57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = 093C076C15A8402600841051 /* Icon57x57.png */; };
 		A8DF347E1597376600ABE4DB /* HBSFirstViewDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DF347D1597376600ABE4DB /* HBSFirstViewDetailController.m */; };
 		A8E455501594F7330065C9FE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8E4554F1594F7330065C9FE /* UIKit.framework */; };
 		A8E455521594F7330065C9FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8E455511594F7330065C9FE /* Foundation.framework */; };
@@ -32,6 +99,73 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		093C06E515A828C800841051 /* Amazon_Token.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Amazon_Token.png; sourceTree = "<group>"; };
+		093C06E615A828C800841051 /* Dwarf_Token.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dwarf_Token.png; sourceTree = "<group>"; };
+		093C06E715A828C800841051 /* Elf_Token.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Elf_Token.png; sourceTree = "<group>"; };
+		093C06E815A828C800841051 /* Ghoul_Token.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ghoul_Token.png; sourceTree = "<group>"; };
+		093C06E915A828C800841051 /* Giant_Token.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Giant_Token.png; sourceTree = "<group>"; };
+		093C06EA15A828C800841051 /* Goblin_Token.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Goblin_Token.png; sourceTree = "<group>"; };
+		093C06EB15A828C800841051 /* Gypsy_Token.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Gypsy_Token.png; sourceTree = "<group>"; };
+		093C06EC15A828C800841051 /* Halfling_Token.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Halfling_Token.png; sourceTree = "<group>"; };
+		093C06ED15A828C800841051 /* Human_Token.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Human_Token.png; sourceTree = "<group>"; };
+		093C06EE15A828C800841051 /* Kobold_Token.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Kobold_Token.png; sourceTree = "<group>"; };
+		093C06EF15A828C800841051 /* Orc_Token.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Orc_Token.png; sourceTree = "<group>"; };
+		093C06F015A828C800841051 /* Priestress_Token.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Priestress_Token.png; sourceTree = "<group>"; };
+		093C06F115A828C800841051 /* Ratman_Token.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ratman_Token.png; sourceTree = "<group>"; };
+		093C06F215A828C800841051 /* Skeleton_Token.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Skeleton_Token.png; sourceTree = "<group>"; };
+		093C06F315A828C800841051 /* Sorcerer_Token.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sorcerer_Token.png; sourceTree = "<group>"; };
+		093C06F415A828C800841051 /* Triton_Token.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Triton_Token.png; sourceTree = "<group>"; };
+		093C06F515A828C800841051 /* Troll_Token.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Troll_Token.png; sourceTree = "<group>"; };
+		093C06F615A828C800841051 /* WhiteLady_Token.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WhiteLady_Token.png; sourceTree = "<group>"; };
+		093C06F715A828C800841051 /* Wizard_Token.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wizard_Token.png; sourceTree = "<group>"; };
+		093C070D15A8329900841051 /* AmazonCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AmazonCard.png; sourceTree = "<group>"; };
+		093C070E15A8329900841051 /* DwarfCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DwarfCard.png; sourceTree = "<group>"; };
+		093C070F15A8329900841051 /* ElfCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ElfCard.png; sourceTree = "<group>"; };
+		093C071015A8329900841051 /* GhoulCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GhoulCard.png; sourceTree = "<group>"; };
+		093C071115A8329900841051 /* GiantCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GiantCard.png; sourceTree = "<group>"; };
+		093C071215A8329900841051 /* GoblinCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GoblinCard.png; sourceTree = "<group>"; };
+		093C071315A8329900841051 /* GypsyCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GypsyCard.png; sourceTree = "<group>"; };
+		093C071415A8329900841051 /* HalflingCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HalflingCard.png; sourceTree = "<group>"; };
+		093C071515A8329900841051 /* HumanCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HumanCard.png; sourceTree = "<group>"; };
+		093C071615A8329900841051 /* KoboldCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KoboldCard.png; sourceTree = "<group>"; };
+		093C071715A8329900841051 /* OrcCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OrcCard.png; sourceTree = "<group>"; };
+		093C071815A8329900841051 /* PriestressCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PriestressCard.png; sourceTree = "<group>"; };
+		093C071915A8329900841051 /* RatmanCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RatmanCard.png; sourceTree = "<group>"; };
+		093C071A15A8329900841051 /* SkeletonCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SkeletonCard.png; sourceTree = "<group>"; };
+		093C071B15A8329900841051 /* SorcererCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SorcererCard.png; sourceTree = "<group>"; };
+		093C071C15A8329900841051 /* TritonCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TritonCard.png; sourceTree = "<group>"; };
+		093C071D15A8329900841051 /* TrollCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TrollCard.png; sourceTree = "<group>"; };
+		093C071E15A8329900841051 /* WhiteLadyCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WhiteLadyCard.png; sourceTree = "<group>"; };
+		093C071F15A8329900841051 /* WizardCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WizardCard.png; sourceTree = "<group>"; };
+		093C073415A83B7A00841051 /* AlchemistCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AlchemistCard.png; sourceTree = "<group>"; };
+		093C073515A83B7A00841051 /* BerserkCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BerserkCard.png; sourceTree = "<group>"; };
+		093C073615A83B7A00841051 /* BivouackingCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BivouackingCard.png; sourceTree = "<group>"; };
+		093C073715A83B7A00841051 /* CommandoCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CommandoCard.png; sourceTree = "<group>"; };
+		093C073815A83B7A00841051 /* CursedCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CursedCard.png; sourceTree = "<group>"; };
+		093C073915A83B7A00841051 /* DiplomatCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DiplomatCard.png; sourceTree = "<group>"; };
+		093C073A15A83B7A00841051 /* DragonMasterCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DragonMasterCard.png; sourceTree = "<group>"; };
+		093C073B15A83B7A00841051 /* FlyingCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FlyingCard.png; sourceTree = "<group>"; };
+		093C073C15A83B7A00841051 /* ForestCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ForestCard.png; sourceTree = "<group>"; };
+		093C073D15A83B7A00841051 /* FortifiedCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FortifiedCard.png; sourceTree = "<group>"; };
+		093C073E15A83B7A00841051 /* HeroicCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HeroicCard.png; sourceTree = "<group>"; };
+		093C073F15A83B7A00841051 /* HillCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HillCard.png; sourceTree = "<group>"; };
+		093C074015A83B7A00841051 /* HistorianCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HistorianCard.png; sourceTree = "<group>"; };
+		093C074115A83B7A00841051 /* HordesOfCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HordesOfCard.png; sourceTree = "<group>"; };
+		093C074215A83B7A00841051 /* MaraudingCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MaraudingCard.png; sourceTree = "<group>"; };
+		093C074315A83B7A00841051 /* MerchantCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MerchantCard.png; sourceTree = "<group>"; };
+		093C074415A83B7A00841051 /* MountedCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MountedCard.png; sourceTree = "<group>"; };
+		093C074515A83B7A00841051 /* PeaceLovingCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PeaceLovingCard.png; sourceTree = "<group>"; };
+		093C074615A83B7A00841051 /* PillagingCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PillagingCard.png; sourceTree = "<group>"; };
+		093C074715A83B7A00841051 /* RansackingCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RansackingCard.png; sourceTree = "<group>"; };
+		093C074815A83B7A00841051 /* SeafaringCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SeafaringCard.png; sourceTree = "<group>"; };
+		093C074915A83B7A00841051 /* SpiritCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SpiritCard.png; sourceTree = "<group>"; };
+		093C074A15A83B7A00841051 /* StoutCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StoutCard.png; sourceTree = "<group>"; };
+		093C074B15A83B7A00841051 /* SwampCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SwampCard.png; sourceTree = "<group>"; };
+		093C074C15A83B7A00841051 /* UnderworldCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UnderworldCard.png; sourceTree = "<group>"; };
+		093C074D15A83B7A00841051 /* WealthyCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WealthyCard.png; sourceTree = "<group>"; };
+		093C074E15A83B7A00841051 /* WereCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WereCard.png; sourceTree = "<group>"; };
+		093C076A15A8402300841051 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../Icon@2x.png"; sourceTree = "<group>"; };
+		093C076C15A8402600841051 /* Icon57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon57x57.png; path = ../Icon57x57.png; sourceTree = "<group>"; };
 		A8DF347C1597376600ABE4DB /* HBSFirstViewDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBSFirstViewDetailController.h; sourceTree = "<group>"; };
 		A8DF347D1597376600ABE4DB /* HBSFirstViewDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBSFirstViewDetailController.m; sourceTree = "<group>"; };
 		A8E4554B1594F7330065C9FE /* SmallWorld Encyclopedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SmallWorld Encyclopedia.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -82,6 +216,92 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		093C06E415A828C800841051 /* tokens */ = {
+			isa = PBXGroup;
+			children = (
+				093C06E515A828C800841051 /* Amazon_Token.png */,
+				093C06E615A828C800841051 /* Dwarf_Token.png */,
+				093C06E715A828C800841051 /* Elf_Token.png */,
+				093C06E815A828C800841051 /* Ghoul_Token.png */,
+				093C06E915A828C800841051 /* Giant_Token.png */,
+				093C06EA15A828C800841051 /* Goblin_Token.png */,
+				093C06EB15A828C800841051 /* Gypsy_Token.png */,
+				093C06EC15A828C800841051 /* Halfling_Token.png */,
+				093C06ED15A828C800841051 /* Human_Token.png */,
+				093C06EE15A828C800841051 /* Kobold_Token.png */,
+				093C06EF15A828C800841051 /* Orc_Token.png */,
+				093C06F015A828C800841051 /* Priestress_Token.png */,
+				093C06F115A828C800841051 /* Ratman_Token.png */,
+				093C06F215A828C800841051 /* Skeleton_Token.png */,
+				093C06F315A828C800841051 /* Sorcerer_Token.png */,
+				093C06F415A828C800841051 /* Triton_Token.png */,
+				093C06F515A828C800841051 /* Troll_Token.png */,
+				093C06F615A828C800841051 /* WhiteLady_Token.png */,
+				093C06F715A828C800841051 /* Wizard_Token.png */,
+			);
+			path = tokens;
+			sourceTree = "<group>";
+		};
+		093C070C15A8329900841051 /* peuples cards */ = {
+			isa = PBXGroup;
+			children = (
+				093C070D15A8329900841051 /* AmazonCard.png */,
+				093C070E15A8329900841051 /* DwarfCard.png */,
+				093C070F15A8329900841051 /* ElfCard.png */,
+				093C071015A8329900841051 /* GhoulCard.png */,
+				093C071115A8329900841051 /* GiantCard.png */,
+				093C071215A8329900841051 /* GoblinCard.png */,
+				093C071315A8329900841051 /* GypsyCard.png */,
+				093C071415A8329900841051 /* HalflingCard.png */,
+				093C071515A8329900841051 /* HumanCard.png */,
+				093C071615A8329900841051 /* KoboldCard.png */,
+				093C071715A8329900841051 /* OrcCard.png */,
+				093C071815A8329900841051 /* PriestressCard.png */,
+				093C071915A8329900841051 /* RatmanCard.png */,
+				093C071A15A8329900841051 /* SkeletonCard.png */,
+				093C071B15A8329900841051 /* SorcererCard.png */,
+				093C071C15A8329900841051 /* TritonCard.png */,
+				093C071D15A8329900841051 /* TrollCard.png */,
+				093C071E15A8329900841051 /* WhiteLadyCard.png */,
+				093C071F15A8329900841051 /* WizardCard.png */,
+			);
+			path = "peuples cards";
+			sourceTree = "<group>";
+		};
+		093C073315A83B7A00841051 /* pouvoirs cards */ = {
+			isa = PBXGroup;
+			children = (
+				093C073415A83B7A00841051 /* AlchemistCard.png */,
+				093C073515A83B7A00841051 /* BerserkCard.png */,
+				093C073615A83B7A00841051 /* BivouackingCard.png */,
+				093C073715A83B7A00841051 /* CommandoCard.png */,
+				093C073815A83B7A00841051 /* CursedCard.png */,
+				093C073915A83B7A00841051 /* DiplomatCard.png */,
+				093C073A15A83B7A00841051 /* DragonMasterCard.png */,
+				093C073B15A83B7A00841051 /* FlyingCard.png */,
+				093C073C15A83B7A00841051 /* ForestCard.png */,
+				093C073D15A83B7A00841051 /* FortifiedCard.png */,
+				093C073E15A83B7A00841051 /* HeroicCard.png */,
+				093C073F15A83B7A00841051 /* HillCard.png */,
+				093C074015A83B7A00841051 /* HistorianCard.png */,
+				093C074115A83B7A00841051 /* HordesOfCard.png */,
+				093C074215A83B7A00841051 /* MaraudingCard.png */,
+				093C074315A83B7A00841051 /* MerchantCard.png */,
+				093C074415A83B7A00841051 /* MountedCard.png */,
+				093C074515A83B7A00841051 /* PeaceLovingCard.png */,
+				093C074615A83B7A00841051 /* PillagingCard.png */,
+				093C074715A83B7A00841051 /* RansackingCard.png */,
+				093C074815A83B7A00841051 /* SeafaringCard.png */,
+				093C074915A83B7A00841051 /* SpiritCard.png */,
+				093C074A15A83B7A00841051 /* StoutCard.png */,
+				093C074B15A83B7A00841051 /* SwampCard.png */,
+				093C074C15A83B7A00841051 /* UnderworldCard.png */,
+				093C074D15A83B7A00841051 /* WealthyCard.png */,
+				093C074E15A83B7A00841051 /* WereCard.png */,
+			);
+			path = "pouvoirs cards";
+			sourceTree = "<group>";
+		};
 		A8E455401594F7330065C9FE = {
 			isa = PBXGroup;
 			children = (
@@ -114,6 +334,9 @@
 		A8E455551594F7330065C9FE /* SmallWorld Encyclopedia */ = {
 			isa = PBXGroup;
 			children = (
+				093C073315A83B7A00841051 /* pouvoirs cards */,
+				093C070C15A8329900841051 /* peuples cards */,
+				093C06E415A828C800841051 /* tokens */,
 				A8E4557C1594F84D0065C9FE /* Peuple.h */,
 				A8E4557B1594F84D0065C9FE /* Peuple.m */,
 				A8E4557E1594F84D0065C9FE /* Peuple+Extensions.h */,
@@ -137,6 +360,8 @@
 				A8E455691594F7330065C9FE /* first@2x.png */,
 				A8E4556E1594F7330065C9FE /* second.png */,
 				A8E455701594F7330065C9FE /* second@2x.png */,
+				093C076C15A8402600841051 /* Icon57x57.png */,
+				093C076A15A8402300841051 /* Icon@2x.png */,
 				A8E455561594F7330065C9FE /* Supporting Files */,
 			);
 			path = "SmallWorld Encyclopedia";
@@ -212,6 +437,73 @@
 				A8E455711594F7330065C9FE /* second@2x.png in Resources */,
 				A8E455821594F84D0065C9FE /* sw_peuples.plist in Resources */,
 				A8E4D9EE15A22551009E7966 /* sw_pouvoirs.plist in Resources */,
+				093C06F815A828C800841051 /* Amazon_Token.png in Resources */,
+				093C06F915A828C800841051 /* Dwarf_Token.png in Resources */,
+				093C06FA15A828C800841051 /* Elf_Token.png in Resources */,
+				093C06FB15A828C800841051 /* Ghoul_Token.png in Resources */,
+				093C06FC15A828C800841051 /* Giant_Token.png in Resources */,
+				093C06FD15A828C800841051 /* Goblin_Token.png in Resources */,
+				093C06FE15A828C800841051 /* Gypsy_Token.png in Resources */,
+				093C06FF15A828C800841051 /* Halfling_Token.png in Resources */,
+				093C070015A828C800841051 /* Human_Token.png in Resources */,
+				093C070115A828C800841051 /* Kobold_Token.png in Resources */,
+				093C070215A828C800841051 /* Orc_Token.png in Resources */,
+				093C070315A828C800841051 /* Priestress_Token.png in Resources */,
+				093C070415A828C800841051 /* Ratman_Token.png in Resources */,
+				093C070515A828C800841051 /* Skeleton_Token.png in Resources */,
+				093C070615A828C800841051 /* Sorcerer_Token.png in Resources */,
+				093C070715A828C800841051 /* Triton_Token.png in Resources */,
+				093C070815A828C800841051 /* Troll_Token.png in Resources */,
+				093C070915A828C800841051 /* WhiteLady_Token.png in Resources */,
+				093C070A15A828C800841051 /* Wizard_Token.png in Resources */,
+				093C072015A8329900841051 /* AmazonCard.png in Resources */,
+				093C072115A8329900841051 /* DwarfCard.png in Resources */,
+				093C072215A8329900841051 /* ElfCard.png in Resources */,
+				093C072315A8329900841051 /* GhoulCard.png in Resources */,
+				093C072415A8329900841051 /* GiantCard.png in Resources */,
+				093C072515A8329900841051 /* GoblinCard.png in Resources */,
+				093C072615A8329900841051 /* GypsyCard.png in Resources */,
+				093C072715A8329900841051 /* HalflingCard.png in Resources */,
+				093C072815A8329900841051 /* HumanCard.png in Resources */,
+				093C072915A8329900841051 /* KoboldCard.png in Resources */,
+				093C072A15A8329900841051 /* OrcCard.png in Resources */,
+				093C072B15A8329900841051 /* PriestressCard.png in Resources */,
+				093C072C15A8329900841051 /* RatmanCard.png in Resources */,
+				093C072D15A8329900841051 /* SkeletonCard.png in Resources */,
+				093C072E15A8329900841051 /* SorcererCard.png in Resources */,
+				093C072F15A8329900841051 /* TritonCard.png in Resources */,
+				093C073015A8329900841051 /* TrollCard.png in Resources */,
+				093C073115A8329900841051 /* WhiteLadyCard.png in Resources */,
+				093C073215A8329900841051 /* WizardCard.png in Resources */,
+				093C074F15A83B7A00841051 /* AlchemistCard.png in Resources */,
+				093C075015A83B7A00841051 /* BerserkCard.png in Resources */,
+				093C075115A83B7A00841051 /* BivouackingCard.png in Resources */,
+				093C075215A83B7A00841051 /* CommandoCard.png in Resources */,
+				093C075315A83B7A00841051 /* CursedCard.png in Resources */,
+				093C075415A83B7A00841051 /* DiplomatCard.png in Resources */,
+				093C075515A83B7A00841051 /* DragonMasterCard.png in Resources */,
+				093C075615A83B7A00841051 /* FlyingCard.png in Resources */,
+				093C075715A83B7A00841051 /* ForestCard.png in Resources */,
+				093C075815A83B7A00841051 /* FortifiedCard.png in Resources */,
+				093C075915A83B7A00841051 /* HeroicCard.png in Resources */,
+				093C075A15A83B7A00841051 /* HillCard.png in Resources */,
+				093C075B15A83B7A00841051 /* HistorianCard.png in Resources */,
+				093C075C15A83B7A00841051 /* HordesOfCard.png in Resources */,
+				093C075D15A83B7A00841051 /* MaraudingCard.png in Resources */,
+				093C075E15A83B7A00841051 /* MerchantCard.png in Resources */,
+				093C075F15A83B7A00841051 /* MountedCard.png in Resources */,
+				093C076015A83B7A00841051 /* PeaceLovingCard.png in Resources */,
+				093C076115A83B7A00841051 /* PillagingCard.png in Resources */,
+				093C076215A83B7A00841051 /* RansackingCard.png in Resources */,
+				093C076315A83B7A00841051 /* SeafaringCard.png in Resources */,
+				093C076415A83B7A00841051 /* SpiritCard.png in Resources */,
+				093C076515A83B7A00841051 /* StoutCard.png in Resources */,
+				093C076615A83B7A00841051 /* SwampCard.png in Resources */,
+				093C076715A83B7A00841051 /* UnderworldCard.png in Resources */,
+				093C076815A83B7A00841051 /* WealthyCard.png in Resources */,
+				093C076915A83B7A00841051 /* WereCard.png in Resources */,
+				093C076B15A8402300841051 /* Icon@2x.png in Resources */,
+				093C076D15A8402600841051 /* Icon57x57.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

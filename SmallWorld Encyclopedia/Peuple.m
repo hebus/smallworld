@@ -6,5 +6,7 @@
 @dynamic name;
 @dynamic extension;
 @dynamic pouvoir;
+@dynamic image;
+@dynamic imageCard;
 
 @end

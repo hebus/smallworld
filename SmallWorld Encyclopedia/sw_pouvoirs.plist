@@ -1,55 +1,484 @@
-(
-{pouvoir="Alchimistes";extension="Small World";effet="Tant que votre Peuple n'est pas en déclin, prenez 2 jetons de victoire supplémentaires à la fin de chaque tour.";},
-{pouvoir="Ancestraux";extension="Small World";effet="Lorsque votre Peuple ancestral est en déclin, il ne compte plus dans la limite précisée dans la section Passer en déclin p. 6 qui indique qu'un même joueur ne peut avoir qu'un seul Peuple en déclin à la fois. Vous pouvez donc avoir deux Peuples en déclin à la fois, qui vous rapportent tous les deux des jetons de victoire. Si vous passez un troisième Peuple en déclin, votre Peuple ancestral reste sur le plateau, mais votre autre Peuple en déclin disparaît, comme d'habitude. En fait, les pions de votre Peuple ancestral ne quittent le plateau que s'ils sont anéantis par l'ennemi.";},
-{pouvoir="Armés";extension="Small World";effet="Toute région peut être conquise avec 1 pion de Peuple de moins que nécessaire, avec un minimum de 1 pion.";},
-{pouvoir="Aux 2 héros";extension="Small World";effet="À la fin de chacun de vos tours, choisissez deux régions que vous occupez et placez un Héros dans chacune d'entre elles. Tant qu'ils y restent, ces régions sont imprenables et immunisées aux capacités spécifiques et aux Pouvoirs Spéciaux des Peuples adverses. Les Héros disparaissent lorsque vous passez en déclin.";},
-{pouvoir="Bâtisseurs";extension="Small World";effet="Une fois par tour, placez 1 Forteresse dans une région que vous occupez. Elle vous rapporte 1 jeton de victoire supplémentaire à la fin de chacun de vos tours, à moins que vous ne soyez ou ne passiez en déclin. Toute Forteresse augmente la défense de la région d'un point (comme si vous aviez un pion de Peuple supplémentaire), même si vous êtes ou passez en déclin. Si vous quittez la région ou qu'un adversaire vous en chasse, retirez la Forteresse. Il ne peut y avoir qu'une seule Forteresse par région, et un maximum de 6 Forteresses sur le plateau.";},
-{pouvoir="Berserks";extension="Small World";effet="Vous pouvez utiliser le dé de renforts avant chaque conquête, pas seulement avant la dernière de votre tour ! À la différence d'un jet de dés de renfort normal, lancez d'abord le dé, puis choisissez la région que vous voulez prendre et placez les pions de Peuple nécessaires (moins le résultat du dé) pour vous emparer de cette région. Si vous n'avez plus assez de pions de Peuple, il s'agissait de votre dernière conquête ce tour-ci. Comme d'habitude, un minimum de 1 pion de Peuple est requis pour chaque conquête.";},
-{pouvoir="Des cavernes";extension="Small World";effet="Toute région qui comporte une Caverne peut être conquise avec un pion de Peuple de moins que nécessaire, avec un minimum de 1 pion. De plus, pour vos conquêtes, toutes les régions qui comportent une Caverne sont considérées comme adjacentes entre elles.";},
-{pouvoir="Des collines";extension="Small World";effet="Prenez 1 jeton de victoire supplémentaire pour chaque Colline que vous occupez en fin de tour.";},
-{pouvoir="Des forêts";extension="Small World";effet="Prenez 1 jeton de victoire supplémentaire pour chaque Forêt que vous occupez en fin de tour.";},
-{pouvoir="Des marais";extension="Small World";effet="Prenez 1 jeton de victoire supplémentaire pour chaque Marais que vous occupez en fin de tour.";},
-{pouvoir="Diplomates";extension="Small World";effet="À la fin de votre tour, vous pouvez choisir un autre joueur qui devient aussitôt votre allié, à condition que vous n'ayez pas attaqué son Peuple actif pendant ce tour. Vous êtes à présent en paix avec lui. Il ne pourra pas attaquer votre Peuple actif avant votre prochain tour. Vous pouvez changer d'allié à chaque tour ou rester en paix avec le même joueur. Les pions en déclin ne sont pas concernés par cet accord (par exemple, des Zombies en déclin n'ont que faire de la paix et pourront vous attaquer) !";},
-{pouvoir="Durs à cuire";extension="Small World";effet="Vous pouvez poursuivre votre expansion ET passer en déclin immédiatement après avoir pris vos jetons de victoire, ce qui vous évite de perdre un tour pour passer en déclin. Les règles du déclin s’appliquent, mais vous ne marquez pas une seconde fois les points de victoire en fin de tour.";},
-{pouvoir="Et leur dragon";extension="Small World";effet="Une fois par tour, vous pouvez conquérir une région en utilisant un seul pion de Peuple, indépendamment du nombre de pions ennemis qui s'y trouve. Une fois conquise, placez votre Dragon dans cette région. Cette région est désormais imprenable et immunisée aux capacités spécifiques et aux Pouvoirs Spéciaux des Peuples adverses, jusqu'à ce que votre Dragon parte capturer une nouvelle région. À chaque nouveau tour, vous pouvez déplacer votre Dragon vers une nouvelle région pour vous en emparer. Votre Dragon disparaît lorsque vous passez en déclin : retirez-le alors du plateau.";},
-{pouvoir="Fortunés";extension="Small World";effet="Prenez 7 jetons de victoire supplémentaires à la fin de votre premier tour d'expansion (donc une seule fois).";},
-{pouvoir="Marchands";extension="Small World";effet="Prenez 1 jeton de victoire supplémentaire pour chaque région que vous occupez en fin de tour.";},
-{pouvoir="Marins";extension="Small World";effet="Vous pouvez considérer les mers et le lac comme trois régions vides et les conquérir. Vous conservez ces régions même en déclin. Elles vous rapportent des jetons de victoire tant que vos pions y restent. Les mers et le lac ne peuvent être occupés que par un Peuple qui dispose de ce Pouvoir. Une mer occupée par des « Marins » n'empêche pas les nouveaux Peuples d'arriver par cette mer lors de la première conquête.";},
-{pouvoir="Montés";extension="Small World";effet="Toute Colline et tout Champ peuvent être conquis avec un pion de Peuple de moins que nécessaire, avec un minimum de 1 pion.";},
-{pouvoir="Pillards";extension="Small World";effet="Toute région non-vide conquise durant ce tour rapporte 1 jeton de victoire supplémentaire en fin de tour.";},
-{pouvoir="Scouts";extension="Small World";effet="Placez les 5 jetons de Campement dans la ou les régions que vous occupez, pendant la phase de Redéploiement. Tout Campement compte comme un pion de Peuple supplémentaire et donc augmente la défense de la région d'un point (cela le protège également contre la capacité spécifique du Sorcier). Il est possible de placer plusieurs Campements dans la même région pour augmenter sa défense. Les Campements peuvent être répartis à votre convenance dans les régions que vous occupez à chaque tour. Ils disparaissent lors du déclin. Si un adversaire vous chasse d'une région défendue par un Campement, redéployez-le dans une de vos régions à la fin du tour de l'attaquant.";},
-{pouvoir="Volants";extension="Small World";effet="Vous pouvez conquérir n'importe quelle région de la carte, même si elle n'est pas adjacente à une des vôtres. Les mers et le lac ne peuvent pas être conquis.";},
-{pouvoir="De la Horde";extension="Maauuudits!";effet="Vous pouvez utiliser vos 2 jetonsDe la Horde exactement comme despions de Peuple supplémentaire.Cependant, ils disparaissent lorsque vous passez en déclin.";},
-{pouvoir="Garous";extension="Maauuudits!";effet="La nuit (tours pairs), toute région peut être conquise avec 2 pions de Peuple de moins que nécessaire, avec un minimum de 1 pion. Le jour (tours impairs), le Pouvoir Spécial n'a pas d'effet.";},
-{pouvoir="Intrépides";extension="Maauuudits!";effet="Lorsque vous avez terminé vos conquêtes,mais avant de lancer le dé de renforts,vous pouvez reprendre vos pions en main (en en laissant un par région) et conquérir de nouvelles régions ! Ce n'est qu'ensuite que vous pouvez utiliser le dé de renforts si nécessaire.";},
-{pouvoir="Maudits";extension="Maauuudits!";effet="Lors du choix d'une combinaison Peuple -Pouvoir Spécial, vous devez déposer non pas 1, mais 3 jetons de victoire sur lePeuple Maudit si vous choisissez une combinaison placée plus bas ! Le Pouvoir Spécial lui-même n'apporte aucun avantage.";},
-{pouvoir="Voleurs";extension="Maauuudits!";effet="Lorsque vous vous emparez d'une région occupée par un Peuple actif appartenant à un de vos adversaires, vous lui prenez immédiatement un jeton de victoire, sauf s'il n'en a plus. Ce Pouvoir ne fonctionne pas contre les Zombies en déclin.";},
-{pouvoir="Historiens";extension="Honneur aux Dames!";effet="Lorsque vous choisissez un Peuple Historien, prenez autant de jetons de victoire qu'il y ade Peuples en déclin autour de la table. Par la suite, tant que votre Peuple est actif, prenez un jeton de victoire supplémentaire lorsqu'un Peuple passe en déclin. Enfin, lorsque votre Peuple Historien passe en déclin, prenez un jeton de victoire supplémentaire !";},
-{pouvoir="Pacifistes";extension="Honneur aux Dames!";effet="Prenez 3 jetons de victoire supplémentaires à la fin de chaque tour si vous n'avez attaqué aucun Peuple actif durant celui-ci. Attaquer des Zombies en déclin ne vous privera pas de vos jetons de bonus : encore une fois, ils n'ont que faire de la paix.";},
-{pouvoir="Catapultés";extension="Même pas peur!";effet="Une fois par tour, vous pouvez placer la Catapulte dans une de vos régions pourfaire une conquête à distance en sautant par-dessus une région (y compris leLac, mais pas les Mers). La région de départ, qui contient la Catapulte, est imprenable et immunisée aux capacités spécifiques et aux Pouvoirs Spéciaux des Peuples adverses. La Catapulte disparaît lors du déclin.";},
-{pouvoir="Corrompus";extension="Même pas peur!";effet="Chaque fois qu'un adversaire s'empare d'une des régions occupées par votre Peuple Corrompu, il vous donne 1 jeton de victoire.";},
-{pouvoir="Impériaux";extension="Même pas peur!";effet="Si vous occupez plus de 3 régions avec votre Peuple Impérial à la fin de votretour, vous gagnez 1 jeton de victoire en plus pour toute région au-delà de cette limite (si vous occupez 5 régions, vous remportez donc 2 jetons de victoire supplémentaires).";},
-{pouvoir="Mercenaires";extension="Même pas peur!";effet="À chaque fois que vous voulez conquérir une région, vous pouvez payer 1 jeton de victoire pour faire baisser de 2 pions de Peuple le coût de la conquête, sachant qu'une conquête se fait toujours avec un minimum de 1 pion. S'il s'agit de votre dernière conquête, vous pouvez lancer le dé de renforts avant de décider de dépenser 1 jeton.";},
-{pouvoir="Retranchés";extension="Même pas peur!";effet="Si votre Peuple Retranché occupe 4 régions ou moins à la fin de votre tour, prenez 3 jetons de victoire supplémentaires.";},
-{pouvoir="Coriaces";extension="Underground";effet="Prenez un nouveau Bouclier pour chaque Champignonnière que vous occupez à la fin de votre phase de Conquête et placez-le(s) dans la ou les régions que vous occupez pendant la phase de Redéploiement (voir p.7). Tout Bouclier augmente la défense de la région d'un point, même en déclin. En revanche, il ne compte pas comme un pion de Peuple (et ne protège donc pas contre le Pouvoir Spécial « Vampire », par exemple). Il est possible de mettre plusieurs Boucliers dans la même région. Si vous quittez la région ou qu'un adversaire vous en chasse, retirez le Bouclier. Sinon, conservez-les tant que votre Peuple est sur le plateau.";},
-{pouvoir="De Boue";extension="Underground";effet="Prenez 1 jeton de victoire supplémentaire pour chaque Mare de boue que vous occupez en fin de tour. Ce pouvoir continue de s'appliquer même en déclin.";},
-{pouvoir="De Cristal";extension="Underground";effet="Prenez 1 jeton de victoire supplémentaire pour chaque région de Cristaux mystiques que vous occupez en fin de tour.";},
-{pouvoir="Des Mines";extension="Underground";effet="Prenez 1 jeton de victoire supplémentaire pour chaque Mine que vous occupez en fin de tour.";},
-{pouvoir="Des Montagnes";extension="Underground";effet="Prenez 1 jeton de victoire supplémentaire pour chaque Montagne noire que vous occupezen fin de tour.";},
-{pouvoir="D'outre-tombe";extension="Underground";effet="Lorsque vous passez en déclin, tous les pions de votre Peuple d'outre-tombe restent sur leplateau : vous pouvez les redéployer avant de marquer vos points. Lorsqu'une de vos régions est conquise par la suite, vous perdez un pion mais pouvez redéployer les autres dans vos autres régions en déclin,comme si votre Peuple était encore actif (Pertes ennemies et retraite, p.6). Si vous ne pouvez plus vous redéployer faute de régions, vos pions sont perdus.";},
-{pouvoir="Et leur musette";extension="Underground";effet="La musette magique permet de reproduire l'effet d'une Relique Rustique en jeu. À chaque tour, vous pouvez l'appliquer à la Relique de votre choix (la musette représente alors la Relique choisie). La musette ne peut pas être volée. Si la région où se trouve la musette est prise ou abandonnée, vous ne perdez pas la musette: elle revient dans votre main.";},
-{pouvoir="Fugaces";extension="Underground";effet="Lorsque vous passez en déclin, vous prenez deux jetons de victoire par région occupée au lieu d'un seul. En revanche, vos pions sont ensuite retirés du plateau.";},
-{pouvoir="Grégaires";extension="Underground";effet="Prenez 2 jetons de victoire supplémentaires si toutes vos régions forment un seul bloc à la fin du tour. Des régions considérées comme adjacentes les unes aux autres forment un bloc même si elles ne partagent pas de frontière : par exemple, des Arachnées réparties autour de plusieurs Gouffres sans fond forment tout de même un bloc et marqueront ce bonus.";},
-{pouvoir="Immortels";extension="Underground";effet="Lorsque l'ennemi s'empare d'une de vos régions, vous reprenez en main tous les pions qui l'occupaient, sans devoir en défausser un (Pertes ennemies et retraite, p.6). Redéployez ces pions comme d'habitude lorsque l'adversaire a fini son tour.";},
-{pouvoir="Kleptomanes";extension="Underground";effet="Prenez un jeton de victoire à tout joueur dont le Peuple actif partage une frontière avec une de vos régions à la fin du tour.";},
-{pouvoir="Martyrs";extension="Underground";effet="Lorsqu'un adversaire s'empare d'une de vos régions, prenez immédiatement un jeton de victoire dans la réserve.";},
-{pouvoir="Pêcheurs";extension="Underground";effet="Prenez 1 jeton de victoire supplémentaire pour chaque série de deux régions côtières que vous occupez en fin de tour. Toute région située au bord de la rivière est une région côtière. Les régions de rivière elles-mêmes n'en sont pas.";},
-{pouvoir="Peureux";extension="Underground";effet="Prenez 1 jeton de victoire supplémentaire pour chaque région que vous occupez avec au moins 3 pions de Peuple en fin de tour.";},
-{pouvoir="Querelleurs";extension="Underground";effet="Prenez 1 jeton de victoire supplémentaire pour chaque bloc de régions que vous occupez en fin de tour. Si vos régions forment un seul bloc, vous gagnez un jeton de victoire; si elles forment deux blocs distincts, vous gagnez deux jetons, etc. Des régions considérées comme adjacentes les unes aux autres forment un bloc même si elles ne partagent pas de frontière.";},
-{pouvoir="Réincarnés";extension="Underground";effet="Lorsque votre Peuple Réincarné est en déclin, au début de votre tour, vous pouvez vider jusqu'à deux régions de celui-ci et placerdans chacune d'elles un pion de votre Peuple actif depuis le casier de rangement (ou votre main, s'il n'y en a plus dans le casier), que vous placez immédiatement dans les régions que vous venez de vider.";},
-{pouvoir="Royaux";extension="Underground";effet="À la fin de votre tour, placez la Reine dans une de vos régions : elle devient imprenable tant que la Reine s'y trouve. Si vous passez en déclin, la Reine reste en place et continue de protéger la région, mais elle ne peut plus être placée ailleurs.";},
-{pouvoir="Sages";extension="Underground";effet="Lorsque vous êtes en déclin, prenez 2 jetons de victoire supplémentaires à la fin de votre tour (y compris celui où vous passez en déclin) si vous occupez toujours au moins une région du plateau.";},
-{pouvoir="Touristes";extension="Underground";effet="Prenez 1 jeton de victoire supplémentaire pour chaque Lieu Légendaire que vous occupez en fin de tour.";},
-{pouvoir="Vampires";extension="Underground";effet="À chaque tour, vous pouvez conquérir une région en remplaçant un pion actif d'un adversaire par un des vôtres, pris dans le casier de rangement (ou dans votre main, s'il n'en reste plus dans le casier). Le pion en question doit être le seul de son Peuple dans la région (une Montagne noire, un Bouclier ou le Donjon du Danger ne protègent pas un pion contre ce genre de conquête). Vous ne pouvez vous servir de ce Pouvoir qu'une fois par tour pour chaque adversaire. Le pion adverse remplacé est remis dans le casier de rangement : un pion Immortel ne revient pas dans la main de son possesseur ! En revanche, les Gnomes ne peuvent jamais être victimes de ce Pouvoir.";},
-{pouvoir="Vengeurs";extension="Underground";effet="Donnez un marqueur de Vengeance à chaque joueur qui attaque n'importe lequel de vos Peuples lors de son tour. Lors de votre prochain tour, toute région occupée par un Peuple de votre agresseur (actif ou en déclin) peut être conquise avec 1 pion de moins que nécessaire, avec un minimum de 1 pion. Reprenez les marqueurs de Vengeance à la fin de votre tour.";}
-)
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>image</key>
+		<string>Alchemist</string>
+		<key>pouvoir</key>
+		<string>Alchimistes</string>
+		<key>extension</key>
+		<string>Small World</string>
+		<key>effet</key>
+		<string>Tant que votre Peuple n&apos;est pas en déclin, prenez 2 jetons de victoire supplémentaires à la fin de chaque tour.</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>Spirit</string>
+		<key>pouvoir</key>
+		<string>Ancestraux</string>
+		<key>extension</key>
+		<string>Small World</string>
+		<key>effet</key>
+		<string>Lorsque votre Peuple ancestral est en déclin, il ne compte plus dans la limite précisée dans la section Passer en déclin p. 6 qui indique qu&apos;un même joueur ne peut avoir qu&apos;un seul Peuple en déclin à la fois. Vous pouvez donc avoir deux Peuples en déclin à la fois, qui vous rapportent tous les deux des jetons de victoire. Si vous passez un troisième Peuple en déclin, votre Peuple ancestral reste sur le plateau, mais votre autre Peuple en déclin disparaît, comme d&apos;habitude. En fait, les pions de votre Peuple ancestral ne quittent le plateau que s&apos;ils sont anéantis par l&apos;ennemi.</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>Commando</string>
+		<key>pouvoir</key>
+		<string>Armés</string>
+		<key>extension</key>
+		<string>Small World</string>
+		<key>effet</key>
+		<string>Toute région peut être conquise avec 1 pion de Peuple de moins que nécessaire, avec un minimum de 1 pion.</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>Heroic</string>
+		<key>pouvoir</key>
+		<string>Aux 2 héros</string>
+		<key>extension</key>
+		<string>Small World</string>
+		<key>effet</key>
+		<string>À la fin de chacun de vos tours, choisissez deux régions que vous occupez et placez un Héros dans chacune d&apos;entre elles. Tant qu&apos;ils y restent, ces régions sont imprenables et immunisées aux capacités spécifiques et aux Pouvoirs Spéciaux des Peuples adverses. Les Héros disparaissent lorsque vous passez en déclin.</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>Fortified</string>
+		<key>pouvoir</key>
+		<string>Bâtisseurs</string>
+		<key>extension</key>
+		<string>Small World</string>
+		<key>effet</key>
+		<string>Une fois par tour, placez 1 Forteresse dans une région que vous occupez. Elle vous rapporte 1 jeton de victoire supplémentaire à la fin de chacun de vos tours, à moins que vous ne soyez ou ne passiez en déclin. Toute Forteresse augmente la défense de la région d&apos;un point (comme si vous aviez un pion de Peuple supplémentaire), même si vous êtes ou passez en déclin. Si vous quittez la région ou qu&apos;un adversaire vous en chasse, retirez la Forteresse. Il ne peut y avoir qu&apos;une seule Forteresse par région, et un maximum de 6 Forteresses sur le plateau.</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>Berserk</string>
+		<key>pouvoir</key>
+		<string>Berserks</string>
+		<key>extension</key>
+		<string>Small World</string>
+		<key>effet</key>
+		<string>Vous pouvez utiliser le dé de renforts avant chaque conquête, pas seulement avant la dernière de votre tour ! À la différence d&apos;un jet de dés de renfort normal, lancez d&apos;abord le dé, puis choisissez la région que vous voulez prendre et placez les pions de Peuple nécessaires (moins le résultat du dé) pour vous emparer de cette région. Si vous n&apos;avez plus assez de pions de Peuple, il s&apos;agissait de votre dernière conquête ce tour-ci. Comme d&apos;habitude, un minimum de 1 pion de Peuple est requis pour chaque conquête.</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>Underworld</string>
+		<key>pouvoir</key>
+		<string>Des cavernes</string>
+		<key>extension</key>
+		<string>Small World</string>
+		<key>effet</key>
+		<string>Toute région qui comporte une Caverne peut être conquise avec un pion de Peuple de moins que nécessaire, avec un minimum de 1 pion. De plus, pour vos conquêtes, toutes les régions qui comportent une Caverne sont considérées comme adjacentes entre elles.</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>Hill</string>
+		<key>pouvoir</key>
+		<string>Des collines</string>
+		<key>extension</key>
+		<string>Small World</string>
+		<key>effet</key>
+		<string>Prenez 1 jeton de victoire supplémentaire pour chaque Colline que vous occupez en fin de tour.</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>Forest</string>
+		<key>pouvoir</key>
+		<string>Des forêts</string>
+		<key>extension</key>
+		<string>Small World</string>
+		<key>effet</key>
+		<string>Prenez 1 jeton de victoire supplémentaire pour chaque Forêt que vous occupez en fin de tour.</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>Swamp</string>
+		<key>pouvoir</key>
+		<string>Des marais</string>
+		<key>extension</key>
+		<string>Small World</string>
+		<key>effet</key>
+		<string>Prenez 1 jeton de victoire supplémentaire pour chaque Marais que vous occupez en fin de tour.</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>Diplomat</string>
+		<key>pouvoir</key>
+		<string>Diplomates</string>
+		<key>extension</key>
+		<string>Small World</string>
+		<key>effet</key>
+		<string>À la fin de votre tour, vous pouvez choisir un autre joueur qui devient aussitôt votre allié, à condition que vous n&apos;ayez pas attaqué son Peuple actif pendant ce tour. Vous êtes à présent en paix avec lui. Il ne pourra pas attaquer votre Peuple actif avant votre prochain tour. Vous pouvez changer d&apos;allié à chaque tour ou rester en paix avec le même joueur. Les pions en déclin ne sont pas concernés par cet accord (par exemple, des Zombies en déclin n&apos;ont que faire de la paix et pourront vous attaquer) !</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>Stout</string>
+		<key>pouvoir</key>
+		<string>Durs à cuire</string>
+		<key>extension</key>
+		<string>Small World</string>
+		<key>effet</key>
+		<string>Vous pouvez poursuivre votre expansion ET passer en déclin immédiatement après avoir pris vos jetons de victoire, ce qui vous évite de perdre un tour pour passer en déclin. Les règles du déclin s’appliquent, mais vous ne marquez pas une seconde fois les points de victoire en fin de tour.</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>DragonMaster</string>
+		<key>pouvoir</key>
+		<string>Et leur dragon</string>
+		<key>extension</key>
+		<string>Small World</string>
+		<key>effet</key>
+		<string>Une fois par tour, vous pouvez conquérir une région en utilisant un seul pion de Peuple, indépendamment du nombre de pions ennemis qui s&apos;y trouve. Une fois conquise, placez votre Dragon dans cette région. Cette région est désormais imprenable et immunisée aux capacités spécifiques et aux Pouvoirs Spéciaux des Peuples adverses, jusqu&apos;à ce que votre Dragon parte capturer une nouvelle région. À chaque nouveau tour, vous pouvez déplacer votre Dragon vers une nouvelle région pour vous en emparer. Votre Dragon disparaît lorsque vous passez en déclin : retirez-le alors du plateau.</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>Wealthy</string>
+		<key>pouvoir</key>
+		<string>Fortunés</string>
+		<key>extension</key>
+		<string>Small World</string>
+		<key>effet</key>
+		<string>Prenez 7 jetons de victoire supplémentaires à la fin de votre premier tour d&apos;expansion (donc une seule fois).</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>Merchant</string>
+		<key>pouvoir</key>
+		<string>Marchands</string>
+		<key>extension</key>
+		<string>Small World</string>
+		<key>effet</key>
+		<string>Prenez 1 jeton de victoire supplémentaire pour chaque région que vous occupez en fin de tour.</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>Seafaring</string>
+		<key>pouvoir</key>
+		<string>Marins</string>
+		<key>extension</key>
+		<string>Small World</string>
+		<key>effet</key>
+		<string>Vous pouvez considérer les mers et le lac comme trois régions vides et les conquérir. Vous conservez ces régions même en déclin. Elles vous rapportent des jetons de victoire tant que vos pions y restent. Les mers et le lac ne peuvent être occupés que par un Peuple qui dispose de ce Pouvoir. Une mer occupée par des « Marins » n&apos;empêche pas les nouveaux Peuples d&apos;arriver par cette mer lors de la première conquête.</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>Mounted</string>
+		<key>pouvoir</key>
+		<string>Montés</string>
+		<key>extension</key>
+		<string>Small World</string>
+		<key>effet</key>
+		<string>Toute Colline et tout Champ peuvent être conquis avec un pion de Peuple de moins que nécessaire, avec un minimum de 1 pion.</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>Pillaging</string>
+		<key>pouvoir</key>
+		<string>Pillards</string>
+		<key>extension</key>
+		<string>Small World</string>
+		<key>effet</key>
+		<string>Toute région non-vide conquise durant ce tour rapporte 1 jeton de victoire supplémentaire en fin de tour.</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>Bivouacking</string>
+		<key>pouvoir</key>
+		<string>Scouts</string>
+		<key>extension</key>
+		<string>Small World</string>
+		<key>effet</key>
+		<string>Placez les 5 jetons de Campement dans la ou les régions que vous occupez, pendant la phase de Redéploiement. Tout Campement compte comme un pion de Peuple supplémentaire et donc augmente la défense de la région d&apos;un point (cela le protège également contre la capacité spécifique du Sorcier). Il est possible de placer plusieurs Campements dans la même région pour augmenter sa défense. Les Campements peuvent être répartis à votre convenance dans les régions que vous occupez à chaque tour. Ils disparaissent lors du déclin. Si un adversaire vous chasse d&apos;une région défendue par un Campement, redéployez-le dans une de vos régions à la fin du tour de l&apos;attaquant.</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>Flying</string>
+		<key>pouvoir</key>
+		<string>Volants</string>
+		<key>extension</key>
+		<string>Small World</string>
+		<key>effet</key>
+		<string>Vous pouvez conquérir n&apos;importe quelle région de la carte, même si elle n&apos;est pas adjacente à une des vôtres. Les mers et le lac ne peuvent pas être conquis.</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>HordesOf</string>
+		<key>pouvoir</key>
+		<string>De la Horde</string>
+		<key>extension</key>
+		<string>Maauuudits!</string>
+		<key>effet</key>
+		<string>Vous pouvez utiliser vos 2 jetonsDe la Horde exactement comme despions de Peuple supplémentaire.Cependant, ils disparaissent lorsque vous passez en déclin.</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>Were</string>
+		<key>pouvoir</key>
+		<string>Garous</string>
+		<key>extension</key>
+		<string>Maauuudits!</string>
+		<key>effet</key>
+		<string>La nuit (tours pairs), toute région peut être conquise avec 2 pions de Peuple de moins que nécessaire, avec un minimum de 1 pion. Le jour (tours impairs), le Pouvoir Spécial n&apos;a pas d&apos;effet.</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>Marauding</string>
+		<key>pouvoir</key>
+		<string>Intrépides</string>
+		<key>extension</key>
+		<string>Maauuudits!</string>
+		<key>effet</key>
+		<string>Lorsque vous avez terminé vos conquêtes,mais avant de lancer le dé de renforts,vous pouvez reprendre vos pions en main (en en laissant un par région) et conquérir de nouvelles régions ! Ce n&apos;est qu&apos;ensuite que vous pouvez utiliser le dé de renforts si nécessaire.</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>Cursed</string>
+		<key>pouvoir</key>
+		<string>Maudits</string>
+		<key>extension</key>
+		<string>Maauuudits!</string>
+		<key>effet</key>
+		<string>Lors du choix d&apos;une combinaison Peuple -Pouvoir Spécial, vous devez déposer non pas 1, mais 3 jetons de victoire sur lePeuple Maudit si vous choisissez une combinaison placée plus bas ! Le Pouvoir Spécial lui-même n&apos;apporte aucun avantage.</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>Ransacking</string>
+		<key>pouvoir</key>
+		<string>Voleurs</string>
+		<key>extension</key>
+		<string>Maauuudits!</string>
+		<key>effet</key>
+		<string>Lorsque vous vous emparez d&apos;une région occupée par un Peuple actif appartenant à un de vos adversaires, vous lui prenez immédiatement un jeton de victoire, sauf s&apos;il n&apos;en a plus. Ce Pouvoir ne fonctionne pas contre les Zombies en déclin.</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>Historian</string>
+		<key>pouvoir</key>
+		<string>Historiens</string>
+		<key>extension</key>
+		<string>Honneur aux Dames!</string>
+		<key>effet</key>
+		<string>Lorsque vous choisissez un Peuple Historien, prenez autant de jetons de victoire qu&apos;il y ade Peuples en déclin autour de la table. Par la suite, tant que votre Peuple est actif, prenez un jeton de victoire supplémentaire lorsqu&apos;un Peuple passe en déclin. Enfin, lorsque votre Peuple Historien passe en déclin, prenez un jeton de victoire supplémentaire !</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>PeaceLoving</string>
+		<key>pouvoir</key>
+		<string>Pacifistes</string>
+		<key>extension</key>
+		<string>Honneur aux Dames!</string>
+		<key>effet</key>
+		<string>Prenez 3 jetons de victoire supplémentaires à la fin de chaque tour si vous n&apos;avez attaqué aucun Peuple actif durant celui-ci. Attaquer des Zombies en déclin ne vous privera pas de vos jetons de bonus : encore une fois, ils n&apos;ont que faire de la paix.</string>
+	</dict>
+	<dict>
+		<key>pouvoir</key>
+		<string>Catapultés</string>
+		<key>extension</key>
+		<string>Même pas peur!</string>
+		<key>effet</key>
+		<string>Une fois par tour, vous pouvez placer la Catapulte dans une de vos régions pourfaire une conquête à distance en sautant par-dessus une région (y compris leLac, mais pas les Mers). La région de départ, qui contient la Catapulte, est imprenable et immunisée aux capacités spécifiques et aux Pouvoirs Spéciaux des Peuples adverses. La Catapulte disparaît lors du déclin.</string>
+	</dict>
+	<dict>
+		<key>pouvoir</key>
+		<string>Corrompus</string>
+		<key>extension</key>
+		<string>Même pas peur!</string>
+		<key>effet</key>
+		<string>Chaque fois qu&apos;un adversaire s&apos;empare d&apos;une des régions occupées par votre Peuple Corrompu, il vous donne 1 jeton de victoire.</string>
+	</dict>
+	<dict>
+		<key>pouvoir</key>
+		<string>Impériaux</string>
+		<key>extension</key>
+		<string>Même pas peur!</string>
+		<key>effet</key>
+		<string>Si vous occupez plus de 3 régions avec votre Peuple Impérial à la fin de votretour, vous gagnez 1 jeton de victoire en plus pour toute région au-delà de cette limite (si vous occupez 5 régions, vous remportez donc 2 jetons de victoire supplémentaires).</string>
+	</dict>
+	<dict>
+		<key>pouvoir</key>
+		<string>Mercenaires</string>
+		<key>extension</key>
+		<string>Même pas peur!</string>
+		<key>effet</key>
+		<string>À chaque fois que vous voulez conquérir une région, vous pouvez payer 1 jeton de victoire pour faire baisser de 2 pions de Peuple le coût de la conquête, sachant qu&apos;une conquête se fait toujours avec un minimum de 1 pion. S&apos;il s&apos;agit de votre dernière conquête, vous pouvez lancer le dé de renforts avant de décider de dépenser 1 jeton.</string>
+	</dict>
+	<dict>
+		<key>pouvoir</key>
+		<string>Retranchés</string>
+		<key>extension</key>
+		<string>Même pas peur!</string>
+		<key>effet</key>
+		<string>Si votre Peuple Retranché occupe 4 régions ou moins à la fin de votre tour, prenez 3 jetons de victoire supplémentaires.</string>
+	</dict>
+	<dict>
+		<key>pouvoir</key>
+		<string>Coriaces</string>
+		<key>extension</key>
+		<string>Underground</string>
+		<key>effet</key>
+		<string>Prenez un nouveau Bouclier pour chaque Champignonnière que vous occupez à la fin de votre phase de Conquête et placez-le(s) dans la ou les régions que vous occupez pendant la phase de Redéploiement (voir p.7). Tout Bouclier augmente la défense de la région d&apos;un point, même en déclin. En revanche, il ne compte pas comme un pion de Peuple (et ne protège donc pas contre le Pouvoir Spécial « Vampire », par exemple). Il est possible de mettre plusieurs Boucliers dans la même région. Si vous quittez la région ou qu&apos;un adversaire vous en chasse, retirez le Bouclier. Sinon, conservez-les tant que votre Peuple est sur le plateau.</string>
+	</dict>
+	<dict>
+		<key>pouvoir</key>
+		<string>De Boue</string>
+		<key>extension</key>
+		<string>Underground</string>
+		<key>effet</key>
+		<string>Prenez 1 jeton de victoire supplémentaire pour chaque Mare de boue que vous occupez en fin de tour. Ce pouvoir continue de s&apos;appliquer même en déclin.</string>
+	</dict>
+	<dict>
+		<key>pouvoir</key>
+		<string>De Cristal</string>
+		<key>extension</key>
+		<string>Underground</string>
+		<key>effet</key>
+		<string>Prenez 1 jeton de victoire supplémentaire pour chaque région de Cristaux mystiques que vous occupez en fin de tour.</string>
+	</dict>
+	<dict>
+		<key>pouvoir</key>
+		<string>Des Mines</string>
+		<key>extension</key>
+		<string>Underground</string>
+		<key>effet</key>
+		<string>Prenez 1 jeton de victoire supplémentaire pour chaque Mine que vous occupez en fin de tour.</string>
+	</dict>
+	<dict>
+		<key>pouvoir</key>
+		<string>Des Montagnes</string>
+		<key>extension</key>
+		<string>Underground</string>
+		<key>effet</key>
+		<string>Prenez 1 jeton de victoire supplémentaire pour chaque Montagne noire que vous occupezen fin de tour.</string>
+	</dict>
+	<dict>
+		<key>pouvoir</key>
+		<string>D&apos;outre-tombe</string>
+		<key>extension</key>
+		<string>Underground</string>
+		<key>effet</key>
+		<string>Lorsque vous passez en déclin, tous les pions de votre Peuple d&apos;outre-tombe restent sur leplateau : vous pouvez les redéployer avant de marquer vos points. Lorsqu&apos;une de vos régions est conquise par la suite, vous perdez un pion mais pouvez redéployer les autres dans vos autres régions en déclin,comme si votre Peuple était encore actif (Pertes ennemies et retraite, p.6). Si vous ne pouvez plus vous redéployer faute de régions, vos pions sont perdus.</string>
+	</dict>
+	<dict>
+		<key>pouvoir</key>
+		<string>Et leur musette</string>
+		<key>extension</key>
+		<string>Underground</string>
+		<key>effet</key>
+		<string>La musette magique permet de reproduire l&apos;effet d&apos;une Relique Rustique en jeu. À chaque tour, vous pouvez l&apos;appliquer à la Relique de votre choix (la musette représente alors la Relique choisie). La musette ne peut pas être volée. Si la région où se trouve la musette est prise ou abandonnée, vous ne perdez pas la musette: elle revient dans votre main.</string>
+	</dict>
+	<dict>
+		<key>pouvoir</key>
+		<string>Fugaces</string>
+		<key>extension</key>
+		<string>Underground</string>
+		<key>effet</key>
+		<string>Lorsque vous passez en déclin, vous prenez deux jetons de victoire par région occupée au lieu d&apos;un seul. En revanche, vos pions sont ensuite retirés du plateau.</string>
+	</dict>
+	<dict>
+		<key>pouvoir</key>
+		<string>Grégaires</string>
+		<key>extension</key>
+		<string>Underground</string>
+		<key>effet</key>
+		<string>Prenez 2 jetons de victoire supplémentaires si toutes vos régions forment un seul bloc à la fin du tour. Des régions considérées comme adjacentes les unes aux autres forment un bloc même si elles ne partagent pas de frontière : par exemple, des Arachnées réparties autour de plusieurs Gouffres sans fond forment tout de même un bloc et marqueront ce bonus.</string>
+	</dict>
+	<dict>
+		<key>pouvoir</key>
+		<string>Immortels</string>
+		<key>extension</key>
+		<string>Underground</string>
+		<key>effet</key>
+		<string>Lorsque l&apos;ennemi s&apos;empare d&apos;une de vos régions, vous reprenez en main tous les pions qui l&apos;occupaient, sans devoir en défausser un (Pertes ennemies et retraite, p.6). Redéployez ces pions comme d&apos;habitude lorsque l&apos;adversaire a fini son tour.</string>
+	</dict>
+	<dict>
+		<key>pouvoir</key>
+		<string>Kleptomanes</string>
+		<key>extension</key>
+		<string>Underground</string>
+		<key>effet</key>
+		<string>Prenez un jeton de victoire à tout joueur dont le Peuple actif partage une frontière avec une de vos régions à la fin du tour.</string>
+	</dict>
+	<dict>
+		<key>pouvoir</key>
+		<string>Martyrs</string>
+		<key>extension</key>
+		<string>Underground</string>
+		<key>effet</key>
+		<string>Lorsqu&apos;un adversaire s&apos;empare d&apos;une de vos régions, prenez immédiatement un jeton de victoire dans la réserve.</string>
+	</dict>
+	<dict>
+		<key>pouvoir</key>
+		<string>Pêcheurs</string>
+		<key>extension</key>
+		<string>Underground</string>
+		<key>effet</key>
+		<string>Prenez 1 jeton de victoire supplémentaire pour chaque série de deux régions côtières que vous occupez en fin de tour. Toute région située au bord de la rivière est une région côtière. Les régions de rivière elles-mêmes n&apos;en sont pas.</string>
+	</dict>
+	<dict>
+		<key>pouvoir</key>
+		<string>Peureux</string>
+		<key>extension</key>
+		<string>Underground</string>
+		<key>effet</key>
+		<string>Prenez 1 jeton de victoire supplémentaire pour chaque région que vous occupez avec au moins 3 pions de Peuple en fin de tour.</string>
+	</dict>
+	<dict>
+		<key>pouvoir</key>
+		<string>Querelleurs</string>
+		<key>extension</key>
+		<string>Underground</string>
+		<key>effet</key>
+		<string>Prenez 1 jeton de victoire supplémentaire pour chaque bloc de régions que vous occupez en fin de tour. Si vos régions forment un seul bloc, vous gagnez un jeton de victoire; si elles forment deux blocs distincts, vous gagnez deux jetons, etc. Des régions considérées comme adjacentes les unes aux autres forment un bloc même si elles ne partagent pas de frontière.</string>
+	</dict>
+	<dict>
+		<key>pouvoir</key>
+		<string>Réincarnés</string>
+		<key>extension</key>
+		<string>Underground</string>
+		<key>effet</key>
+		<string>Lorsque votre Peuple Réincarné est en déclin, au début de votre tour, vous pouvez vider jusqu&apos;à deux régions de celui-ci et placerdans chacune d&apos;elles un pion de votre Peuple actif depuis le casier de rangement (ou votre main, s&apos;il n&apos;y en a plus dans le casier), que vous placez immédiatement dans les régions que vous venez de vider.</string>
+	</dict>
+	<dict>
+		<key>pouvoir</key>
+		<string>Royaux</string>
+		<key>extension</key>
+		<string>Underground</string>
+		<key>effet</key>
+		<string>À la fin de votre tour, placez la Reine dans une de vos régions : elle devient imprenable tant que la Reine s&apos;y trouve. Si vous passez en déclin, la Reine reste en place et continue de protéger la région, mais elle ne peut plus être placée ailleurs.</string>
+	</dict>
+	<dict>
+		<key>pouvoir</key>
+		<string>Sages</string>
+		<key>extension</key>
+		<string>Underground</string>
+		<key>effet</key>
+		<string>Lorsque vous êtes en déclin, prenez 2 jetons de victoire supplémentaires à la fin de votre tour (y compris celui où vous passez en déclin) si vous occupez toujours au moins une région du plateau.</string>
+	</dict>
+	<dict>
+		<key>pouvoir</key>
+		<string>Touristes</string>
+		<key>extension</key>
+		<string>Underground</string>
+		<key>effet</key>
+		<string>Prenez 1 jeton de victoire supplémentaire pour chaque Lieu Légendaire que vous occupez en fin de tour.</string>
+	</dict>
+	<dict>
+		<key>pouvoir</key>
+		<string>Vampires</string>
+		<key>extension</key>
+		<string>Underground</string>
+		<key>effet</key>
+		<string>À chaque tour, vous pouvez conquérir une région en remplaçant un pion actif d&apos;un adversaire par un des vôtres, pris dans le casier de rangement (ou dans votre main, s&apos;il n&apos;en reste plus dans le casier). Le pion en question doit être le seul de son Peuple dans la région (une Montagne noire, un Bouclier ou le Donjon du Danger ne protègent pas un pion contre ce genre de conquête). Vous ne pouvez vous servir de ce Pouvoir qu&apos;une fois par tour pour chaque adversaire. Le pion adverse remplacé est remis dans le casier de rangement : un pion Immortel ne revient pas dans la main de son possesseur ! En revanche, les Gnomes ne peuvent jamais être victimes de ce Pouvoir.</string>
+	</dict>
+	<dict>
+		<key>pouvoir</key>
+		<string>Vengeurs</string>
+		<key>extension</key>
+		<string>Underground</string>
+		<key>effet</key>
+		<string>Donnez un marqueur de Vengeance à chaque joueur qui attaque n&apos;importe lequel de vos Peuples lors de son tour. Lors de votre prochain tour, toute région occupée par un Peuple de votre agresseur (actif ou en déclin) peut être conquise avec 1 pion de moins que nécessaire, avec un minimum de 1 pion. Reprenez les marqueurs de Vengeance à la fin de votre tour.</string>
+	</dict>
+</array>
+</plist>

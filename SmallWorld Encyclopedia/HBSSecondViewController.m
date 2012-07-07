@@ -55,9 +55,10 @@
 }
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"pouvoirCell"];
-    Peuple *peuple = [self.fetchedResultsController objectAtIndexPath:indexPath];
-    cell.textLabel.text = peuple.name;
-    cell.detailTextLabel.text = peuple.extension;
+    Pouvoir *pouvoir = [self.fetchedResultsController objectAtIndexPath:indexPath];
+    cell.textLabel.text = pouvoir.name;
+    cell.detailTextLabel.text = pouvoir.extension;
+    cell.imageView.image = [UIImage imageNamed:pouvoir.imageCard];
     
     return cell;
 }

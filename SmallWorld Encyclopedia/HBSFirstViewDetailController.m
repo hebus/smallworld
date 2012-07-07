@@ -17,6 +17,7 @@
 @synthesize peuple = _peuple;
 @synthesize power = _power;
 @synthesize peupleDescription = _peupleDescription;
+@synthesize imageView = _imageView;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -34,10 +35,12 @@
     if(_peuple != nil){
         [[self peupleDescription] setText:_peuple.pouvoir];
         self.title = _peuple.name;
+        self.imageView.image =[UIImage imageNamed:_peuple.imageCard];
     }
     if(_power != nil){
         [[self peupleDescription] setText:_power.effet];
         self.title = _power.name;
+        self.imageView.image = [UIImage imageNamed:_power.imageCard];
     }
 }
 

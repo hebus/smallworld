@@ -22,6 +22,7 @@
 			pouvoir.name = [item valueForKey:@"pouvoir"];
 			pouvoir.extension = [item valueForKey:@"extension"];
 			pouvoir.effet = [item valueForKey:@"effet"];
+            pouvoir.imageCard = [[item valueForKey:@"image"] stringByAppendingString:@"Card.png"];
 		}
 		
 		if (![moc save:&error])

@@ -13,5 +13,6 @@
 @dynamic name;
 @dynamic extension;
 @dynamic effet;
+@dynamic imageCard;
 
 @end

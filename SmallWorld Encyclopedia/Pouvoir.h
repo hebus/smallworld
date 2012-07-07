@@ -13,5 +13,6 @@
 @property (nonatomic, retain) NSString *name;
 @property (nonatomic, retain) NSString *extension ;
 @property (nonatomic, retain) NSString *effet ;
+@property (nonatomic, retain) NSString *imageCard;
 
 @end
