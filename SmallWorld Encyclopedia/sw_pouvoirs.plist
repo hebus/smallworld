@@ -273,6 +273,8 @@
 		<string>Prenez 3 jetons de victoire supplémentaires à la fin de chaque tour si vous n&apos;avez attaqué aucun Peuple actif durant celui-ci. Attaquer des Zombies en déclin ne vous privera pas de vos jetons de bonus : encore une fois, ils n&apos;ont que faire de la paix.</string>
 	</dict>
 	<dict>
+		<key>image</key>
+		<string>Catapult</string>
 		<key>pouvoir</key>
 		<string>Catapultés</string>
 		<key>extension</key>
@@ -281,6 +283,8 @@
 		<string>Une fois par tour, vous pouvez placer la Catapulte dans une de vos régions pourfaire une conquête à distance en sautant par-dessus une région (y compris leLac, mais pas les Mers). La région de départ, qui contient la Catapulte, est imprenable et immunisée aux capacités spécifiques et aux Pouvoirs Spéciaux des Peuples adverses. La Catapulte disparaît lors du déclin.</string>
 	</dict>
 	<dict>
+		<key>image</key>
+		<string>Corrupt</string>
 		<key>pouvoir</key>
 		<string>Corrompus</string>
 		<key>extension</key>
@@ -289,6 +293,8 @@
 		<string>Chaque fois qu&apos;un adversaire s&apos;empare d&apos;une des régions occupées par votre Peuple Corrompu, il vous donne 1 jeton de victoire.</string>
 	</dict>
 	<dict>
+		<key>image</key>
+		<string>Imperial</string>
 		<key>pouvoir</key>
 		<string>Impériaux</string>
 		<key>extension</key>
@@ -297,6 +303,8 @@
 		<string>Si vous occupez plus de 3 régions avec votre Peuple Impérial à la fin de votretour, vous gagnez 1 jeton de victoire en plus pour toute région au-delà de cette limite (si vous occupez 5 régions, vous remportez donc 2 jetons de victoire supplémentaires).</string>
 	</dict>
 	<dict>
+		<key>image</key>
+		<string>Mercenary</string>
 		<key>pouvoir</key>
 		<string>Mercenaires</string>
 		<key>extension</key>
@@ -305,6 +313,8 @@
 		<string>À chaque fois que vous voulez conquérir une région, vous pouvez payer 1 jeton de victoire pour faire baisser de 2 pions de Peuple le coût de la conquête, sachant qu&apos;une conquête se fait toujours avec un minimum de 1 pion. S&apos;il s&apos;agit de votre dernière conquête, vous pouvez lancer le dé de renforts avant de décider de dépenser 1 jeton.</string>
 	</dict>
 	<dict>
+		<key>image</key>
+		<string>Barricade</string>
 		<key>pouvoir</key>
 		<string>Retranchés</string>
 		<key>extension</key>

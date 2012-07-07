@@ -29,6 +29,15 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     self.title = NSLocalizedString(@"Peuples", @"Peuples");
+    
+    
+    // Do any additional setup after loading the view, typically from a nib.
+    //    self.navigationItem.leftBarButtonItem = self.editButtonItem;
+    //
+//    UIBarButtonItem *infoButton = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"info.png"] style:UIBarButtonItemStyleBordered target:self action:@selector(aboutMe:)];
+//        self.navigationItem.rightBarButtonItem = infoButton;
+
+    
     [Peuple importDataToMoc:self.managedObjectContext];
 }
 

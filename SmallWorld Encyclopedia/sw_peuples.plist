@@ -193,6 +193,8 @@
 		<string>Lorsque les Prêtresses passent en déclin, conservez autant de Prêtresses que de régions en leur possession, et regroupez-les en une seule pile dans une de ces régions. Cette pile forme leur Tour d&apos;Ivoire. Chaque pion dans la Tour d&apos;Ivoire rapporte un jeton de victoire par tour, mais la région elle-même ne rapporte aucun jeton.La Tour peut parfaitement être conquise par l&apos;ennemi (à condition d&apos;avoir assez de pions pour la vaincre, ou d&apos;utiliser un Dragon). La Tour d&apos;Ivoire peut être construite sur une Forteresse si vos Prêtresses possédaient le pouvoir Bâtisseurs.</string>
 	</dict>
 	<dict>
+		<key>image</key>
+		<string>Barbarians</string>
 		<key>peuple</key>
 		<string>Barbares</string>
 		<key>extension</key>
@@ -201,6 +203,8 @@
 		<string>Vos Barbares ne peuvent pas se redéployer à la fin de leur tour. En cas d&apos;échec au dé lors de votre dernière conquête, vos Barbares non utilisées doivent rester en dehors du plateau.</string>
 	</dict>
 	<dict>
+		<key>image</key>
+		<string>Leprechauns</string>
 		<key>peuple</key>
 		<string>Farfadets</string>
 		<key>extension</key>
@@ -209,6 +213,8 @@
 		<string>Lors du Redéploiement, vous pouvez placer un Chaudron par région occupée par vos Farfadets. Tout Chaudron vous rapporte 1 jeton de victoire s&apos;il est toujours en place au début de votre prochain tour : placez alors le Chaudron parmi vos jetons de victoire. Si un adversaire prend une région contenant un Chaudron, il le récupère immédiatement. Tant qu&apos;il vous reste des Chaudrons, vous pouvez en placer lors de vos phases de Redéploiement. Les Chaudrons non-utilisés sont perdus lors du déclin.</string>
 	</dict>
 	<dict>
+		<key>image</key>
+		<string>Pixies</string>
 		<key>peuple</key>
 		<string>Fées</string>
 		<key>extension</key>
@@ -217,6 +223,8 @@
 		<string>Lors du Redéploiement, vous ne devez laisser qu&apos;une seule Fée par région en votre possession. Toutes les autres restent en dehors du plateau jusqu&apos;au prochain tour.</string>
 	</dict>
 	<dict>
+		<key>image</key>
+		<string>Homunculi</string>
 		<key>peuple</key>
 		<string>Homoncules</string>
 		<key>extension</key>
@@ -225,6 +233,8 @@
 		<string>À chaque fois qu&apos;un joueur choisit une combinaison placée plus bas que celle des Homoncules, il place un Homoncule sur leur combinaison en plus d&apos;un jeton de victoire. Lorsque par la suite un joueur choisit les Homoncules, il récupère les pions ainsi déposés en plus des jetons de victoire et des pions auxquels il a normalement droit grâce à la combinaison (dans la limite de 15 pions).</string>
 	</dict>
 	<dict>
+		<key>image</key>
+		<string>Pygmies</string>
 		<key>peuple</key>
 		<string>Pygmées</string>
 		<key>extension</key>
