@@ -205,6 +205,7 @@
             <source key="sourceIdentifier" type="project" relativePath="./Classes/HBSFirstViewDetailController.h"/>
             <relationships>
                 <relationship kind="outlet" name="imageView" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="infoButton" candidateClass="UIButton"/>
                 <relationship kind="outlet" name="peupleDescription" candidateClass="UITextView"/>
             </relationships>
         </class>
@@ -218,6 +219,6 @@
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="txj-md-Lnu"/>
+        <segue reference="ajx-rW-Ptz"/>
     </inferredMetricsTieBreakers>
 </document>

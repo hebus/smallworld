@@ -673,6 +673,7 @@
 		A8E455751594F7330065C9FE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMPRESS_PNG_FILES = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SmallWorld Encyclopedia/SmallWorld Encyclopedia-Prefix.pch";
 				INFOPLIST_FILE = "SmallWorld Encyclopedia/SmallWorld Encyclopedia-Info.plist";
@@ -686,6 +687,7 @@
 		A8E455761594F7330065C9FE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMPRESS_PNG_FILES = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SmallWorld Encyclopedia/SmallWorld Encyclopedia-Prefix.pch";
 				INFOPLIST_FILE = "SmallWorld Encyclopedia/SmallWorld Encyclopedia-Info.plist";

@@ -16,5 +16,6 @@
 @property (strong, nonatomic) Pouvoir *power;
 @property (strong, nonatomic) IBOutlet UITextView *peupleDescription;
 @property (strong,nonatomic) IBOutlet UIImageView *imageView;
+@property (strong,nonatomic) IBOutlet UIButton *infoButton;
 
 @end

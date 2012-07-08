@@ -18,6 +18,7 @@
 @synthesize power = _power;
 @synthesize peupleDescription = _peupleDescription;
 @synthesize imageView = _imageView;
+@synthesize infoButton;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -69,4 +70,5 @@
         _peuple = nil;
     }
 }
+
 @end
