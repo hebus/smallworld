@@ -323,6 +323,8 @@
 		<string>Si votre Peuple Retranché occupe 4 régions ou moins à la fin de votre tour, prenez 3 jetons de victoire supplémentaires.</string>
 	</dict>
 	<dict>
+		<key>image</key>
+		<string>Coriaces</string>
 		<key>pouvoir</key>
 		<string>Coriaces</string>
 		<key>extension</key>
@@ -331,6 +333,8 @@
 		<string>Prenez un nouveau Bouclier pour chaque Champignonnière que vous occupez à la fin de votre phase de Conquête et placez-le(s) dans la ou les régions que vous occupez pendant la phase de Redéploiement (voir p.7). Tout Bouclier augmente la défense de la région d&apos;un point, même en déclin. En revanche, il ne compte pas comme un pion de Peuple (et ne protège donc pas contre le Pouvoir Spécial « Vampire », par exemple). Il est possible de mettre plusieurs Boucliers dans la même région. Si vous quittez la région ou qu&apos;un adversaire vous en chasse, retirez le Bouclier. Sinon, conservez-les tant que votre Peuple est sur le plateau.</string>
 	</dict>
 	<dict>
+		<key>image</key>
+		<string>DeBoue</string>
 		<key>pouvoir</key>
 		<string>De Boue</string>
 		<key>extension</key>
@@ -339,6 +343,8 @@
 		<string>Prenez 1 jeton de victoire supplémentaire pour chaque Mare de boue que vous occupez en fin de tour. Ce pouvoir continue de s&apos;appliquer même en déclin.</string>
 	</dict>
 	<dict>
+		<key>image</key>
+		<string>DeCristal</string>
 		<key>pouvoir</key>
 		<string>De Cristal</string>
 		<key>extension</key>
@@ -347,6 +353,8 @@
 		<string>Prenez 1 jeton de victoire supplémentaire pour chaque région de Cristaux mystiques que vous occupez en fin de tour.</string>
 	</dict>
 	<dict>
+		<key>image</key>
+		<string>DesMines</string>
 		<key>pouvoir</key>
 		<string>Des Mines</string>
 		<key>extension</key>
@@ -355,6 +363,8 @@
 		<string>Prenez 1 jeton de victoire supplémentaire pour chaque Mine que vous occupez en fin de tour.</string>
 	</dict>
 	<dict>
+		<key>image</key>
+		<string>DesMontagnes</string>
 		<key>pouvoir</key>
 		<string>Des Montagnes</string>
 		<key>extension</key>
@@ -363,6 +373,8 @@
 		<string>Prenez 1 jeton de victoire supplémentaire pour chaque Montagne noire que vous occupezen fin de tour.</string>
 	</dict>
 	<dict>
+		<key>image</key>
+		<string>DoutreTombe</string>
 		<key>pouvoir</key>
 		<string>D&apos;outre-tombe</string>
 		<key>extension</key>
@@ -371,6 +383,8 @@
 		<string>Lorsque vous passez en déclin, tous les pions de votre Peuple d&apos;outre-tombe restent sur leplateau : vous pouvez les redéployer avant de marquer vos points. Lorsqu&apos;une de vos régions est conquise par la suite, vous perdez un pion mais pouvez redéployer les autres dans vos autres régions en déclin,comme si votre Peuple était encore actif (Pertes ennemies et retraite, p.6). Si vous ne pouvez plus vous redéployer faute de régions, vos pions sont perdus.</string>
 	</dict>
 	<dict>
+		<key>image</key>
+		<string>EtLeurMusette</string>
 		<key>pouvoir</key>
 		<string>Et leur musette</string>
 		<key>extension</key>
@@ -379,6 +393,8 @@
 		<string>La musette magique permet de reproduire l&apos;effet d&apos;une Relique Rustique en jeu. À chaque tour, vous pouvez l&apos;appliquer à la Relique de votre choix (la musette représente alors la Relique choisie). La musette ne peut pas être volée. Si la région où se trouve la musette est prise ou abandonnée, vous ne perdez pas la musette: elle revient dans votre main.</string>
 	</dict>
 	<dict>
+		<key>image</key>
+		<string>Fugaces</string>
 		<key>pouvoir</key>
 		<string>Fugaces</string>
 		<key>extension</key>
@@ -387,6 +403,8 @@
 		<string>Lorsque vous passez en déclin, vous prenez deux jetons de victoire par région occupée au lieu d&apos;un seul. En revanche, vos pions sont ensuite retirés du plateau.</string>
 	</dict>
 	<dict>
+		<key>image</key>
+		<string>Gregaires</string>
 		<key>pouvoir</key>
 		<string>Grégaires</string>
 		<key>extension</key>
@@ -395,6 +413,8 @@
 		<string>Prenez 2 jetons de victoire supplémentaires si toutes vos régions forment un seul bloc à la fin du tour. Des régions considérées comme adjacentes les unes aux autres forment un bloc même si elles ne partagent pas de frontière : par exemple, des Arachnées réparties autour de plusieurs Gouffres sans fond forment tout de même un bloc et marqueront ce bonus.</string>
 	</dict>
 	<dict>
+		<key>image</key>
+		<string>Immortels</string>
 		<key>pouvoir</key>
 		<string>Immortels</string>
 		<key>extension</key>
@@ -403,6 +423,8 @@
 		<string>Lorsque l&apos;ennemi s&apos;empare d&apos;une de vos régions, vous reprenez en main tous les pions qui l&apos;occupaient, sans devoir en défausser un (Pertes ennemies et retraite, p.6). Redéployez ces pions comme d&apos;habitude lorsque l&apos;adversaire a fini son tour.</string>
 	</dict>
 	<dict>
+		<key>image</key>
+		<string>Kleptomanes</string>
 		<key>pouvoir</key>
 		<string>Kleptomanes</string>
 		<key>extension</key>
@@ -411,6 +433,8 @@
 		<string>Prenez un jeton de victoire à tout joueur dont le Peuple actif partage une frontière avec une de vos régions à la fin du tour.</string>
 	</dict>
 	<dict>
+		<key>image</key>
+		<string>Martyrs</string>
 		<key>pouvoir</key>
 		<string>Martyrs</string>
 		<key>extension</key>
@@ -419,6 +443,8 @@
 		<string>Lorsqu&apos;un adversaire s&apos;empare d&apos;une de vos régions, prenez immédiatement un jeton de victoire dans la réserve.</string>
 	</dict>
 	<dict>
+		<key>image</key>
+		<string>Pecheurs</string>
 		<key>pouvoir</key>
 		<string>Pêcheurs</string>
 		<key>extension</key>
@@ -427,6 +453,8 @@
 		<string>Prenez 1 jeton de victoire supplémentaire pour chaque série de deux régions côtières que vous occupez en fin de tour. Toute région située au bord de la rivière est une région côtière. Les régions de rivière elles-mêmes n&apos;en sont pas.</string>
 	</dict>
 	<dict>
+		<key>image</key>
+		<string>Peureux</string>
 		<key>pouvoir</key>
 		<string>Peureux</string>
 		<key>extension</key>
@@ -435,6 +463,8 @@
 		<string>Prenez 1 jeton de victoire supplémentaire pour chaque région que vous occupez avec au moins 3 pions de Peuple en fin de tour.</string>
 	</dict>
 	<dict>
+		<key>image</key>
+		<string>Querelleurs</string>
 		<key>pouvoir</key>
 		<string>Querelleurs</string>
 		<key>extension</key>
@@ -443,6 +473,8 @@
 		<string>Prenez 1 jeton de victoire supplémentaire pour chaque bloc de régions que vous occupez en fin de tour. Si vos régions forment un seul bloc, vous gagnez un jeton de victoire; si elles forment deux blocs distincts, vous gagnez deux jetons, etc. Des régions considérées comme adjacentes les unes aux autres forment un bloc même si elles ne partagent pas de frontière.</string>
 	</dict>
 	<dict>
+		<key>image</key>
+		<string>Reincarnes</string>
 		<key>pouvoir</key>
 		<string>Réincarnés</string>
 		<key>extension</key>
@@ -451,6 +483,8 @@
 		<string>Lorsque votre Peuple Réincarné est en déclin, au début de votre tour, vous pouvez vider jusqu&apos;à deux régions de celui-ci et placerdans chacune d&apos;elles un pion de votre Peuple actif depuis le casier de rangement (ou votre main, s&apos;il n&apos;y en a plus dans le casier), que vous placez immédiatement dans les régions que vous venez de vider.</string>
 	</dict>
 	<dict>
+		<key>image</key>
+		<string>Royaux</string>
 		<key>pouvoir</key>
 		<string>Royaux</string>
 		<key>extension</key>
@@ -459,6 +493,8 @@
 		<string>À la fin de votre tour, placez la Reine dans une de vos régions : elle devient imprenable tant que la Reine s&apos;y trouve. Si vous passez en déclin, la Reine reste en place et continue de protéger la région, mais elle ne peut plus être placée ailleurs.</string>
 	</dict>
 	<dict>
+		<key>image</key>
+		<string>Sages</string>
 		<key>pouvoir</key>
 		<string>Sages</string>
 		<key>extension</key>
@@ -467,6 +503,8 @@
 		<string>Lorsque vous êtes en déclin, prenez 2 jetons de victoire supplémentaires à la fin de votre tour (y compris celui où vous passez en déclin) si vous occupez toujours au moins une région du plateau.</string>
 	</dict>
 	<dict>
+		<key>image</key>
+		<string>Touristes</string>
 		<key>pouvoir</key>
 		<string>Touristes</string>
 		<key>extension</key>
@@ -475,6 +513,8 @@
 		<string>Prenez 1 jeton de victoire supplémentaire pour chaque Lieu Légendaire que vous occupez en fin de tour.</string>
 	</dict>
 	<dict>
+		<key>image</key>
+		<string>Vampires</string>
 		<key>pouvoir</key>
 		<string>Vampires</string>
 		<key>extension</key>
@@ -483,6 +523,8 @@
 		<string>À chaque tour, vous pouvez conquérir une région en remplaçant un pion actif d&apos;un adversaire par un des vôtres, pris dans le casier de rangement (ou dans votre main, s&apos;il n&apos;en reste plus dans le casier). Le pion en question doit être le seul de son Peuple dans la région (une Montagne noire, un Bouclier ou le Donjon du Danger ne protègent pas un pion contre ce genre de conquête). Vous ne pouvez vous servir de ce Pouvoir qu&apos;une fois par tour pour chaque adversaire. Le pion adverse remplacé est remis dans le casier de rangement : un pion Immortel ne revient pas dans la main de son possesseur ! En revanche, les Gnomes ne peuvent jamais être victimes de ce Pouvoir.</string>
 	</dict>
 	<dict>
+		<key>image</key>
+		<string>Vengeurs</string>
 		<key>pouvoir</key>
 		<string>Vengeurs</string>
 		<key>extension</key>

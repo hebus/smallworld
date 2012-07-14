@@ -107,6 +107,42 @@
 		095D957815A89DFB00C71929 /* CatapultCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 095D957315A89DFB00C71929 /* CatapultCard.png */; };
 		096C3BA315A8A683006E511B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 096C3BA215A8A683006E511B /* Default@2x.png */; };
 		096C3BA515A8A685006E511B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 096C3BA415A8A685006E511B /* Default.png */; };
+		09F6BE0D15B203C600D12CF7 /* Arachnees_Token.png in Resources */ = {isa = PBXBuildFile; fileRef = 09F6BE0115B203C600D12CF7 /* Arachnees_Token.png */; };
+		09F6BE0E15B203C600D12CF7 /* Champigneux_Token.png in Resources */ = {isa = PBXBuildFile; fileRef = 09F6BE0215B203C600D12CF7 /* Champigneux_Token.png */; };
+		09F6BE0F15B203C600D12CF7 /* Cultistes_Token.png in Resources */ = {isa = PBXBuildFile; fileRef = 09F6BE0315B203C600D12CF7 /* Cultistes_Token.png */; };
+		09F6BE1015B203C600D12CF7 /* ElfesNoirs_Token.png in Resources */ = {isa = PBXBuildFile; fileRef = 09F6BE0415B203C600D12CF7 /* ElfesNoirs_Token.png */; };
+		09F6BE1115B203C600D12CF7 /* FeuxFollets_Token.png in Resources */ = {isa = PBXBuildFile; fileRef = 09F6BE0515B203C600D12CF7 /* FeuxFollets_Token.png */; };
+		09F6BE1215B203C600D12CF7 /* Flammes_Token.png in Resources */ = {isa = PBXBuildFile; fileRef = 09F6BE0615B203C600D12CF7 /* Flammes_Token.png */; };
+		09F6BE1315B203C600D12CF7 /* Liches_Token.png in Resources */ = {isa = PBXBuildFile; fileRef = 09F6BE0715B203C600D12CF7 /* Liches_Token.png */; };
+		09F6BE1415B203C600D12CF7 /* Mimics_Token.png in Resources */ = {isa = PBXBuildFile; fileRef = 09F6BE0815B203C600D12CF7 /* Mimics_Token.png */; };
+		09F6BE1515B203C600D12CF7 /* Momies_Token.png in Resources */ = {isa = PBXBuildFile; fileRef = 09F6BE0915B203C600D12CF7 /* Momies_Token.png */; };
+		09F6BE1615B203C600D12CF7 /* NainsDeFer_Token.png in Resources */ = {isa = PBXBuildFile; fileRef = 09F6BE0A15B203C600D12CF7 /* NainsDeFer_Token.png */; };
+		09F6BE1715B203C600D12CF7 /* Ogres_Token.png in Resources */ = {isa = PBXBuildFile; fileRef = 09F6BE0B15B203C600D12CF7 /* Ogres_Token.png */; };
+		09F6BE1815B203C600D12CF7 /* Poulpeuses_Token.png in Resources */ = {isa = PBXBuildFile; fileRef = 09F6BE0C15B203C600D12CF7 /* Poulpeuses_Token.png */; };
+		09F6BE2915B203E200D12CF7 /* CoriacesCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 09F6BE1A15B203E200D12CF7 /* CoriacesCard.png */; };
+		09F6BE2A15B203E200D12CF7 /* DeBoueCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 09F6BE1B15B203E200D12CF7 /* DeBoueCard.png */; };
+		09F6BE2B15B203E200D12CF7 /* DeCristalCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 09F6BE1C15B203E200D12CF7 /* DeCristalCard.png */; };
+		09F6BE2C15B203E200D12CF7 /* DesMinesCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 09F6BE1D15B203E200D12CF7 /* DesMinesCard.png */; };
+		09F6BE2D15B203E200D12CF7 /* DesMontagnesCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 09F6BE1E15B203E200D12CF7 /* DesMontagnesCard.png */; };
+		09F6BE2E15B203E200D12CF7 /* DoutreTombeCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 09F6BE1F15B203E200D12CF7 /* DoutreTombeCard.png */; };
+		09F6BE2F15B203E200D12CF7 /* ImmortelsCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 09F6BE2015B203E200D12CF7 /* ImmortelsCard.png */; };
+		09F6BE3015B203E200D12CF7 /* KleptomanesCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 09F6BE2115B203E200D12CF7 /* KleptomanesCard.png */; };
+		09F6BE3115B203E200D12CF7 /* MartyrsCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 09F6BE2215B203E200D12CF7 /* MartyrsCard.png */; };
+		09F6BE3215B203E200D12CF7 /* PecheursCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 09F6BE2315B203E200D12CF7 /* PecheursCard.png */; };
+		09F6BE3315B203E200D12CF7 /* PeureuxCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 09F6BE2415B203E200D12CF7 /* PeureuxCard.png */; };
+		09F6BE3415B203E200D12CF7 /* QuerelleursCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 09F6BE2515B203E200D12CF7 /* QuerelleursCard.png */; };
+		09F6BE3515B203E200D12CF7 /* TouristesCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 09F6BE2615B203E200D12CF7 /* TouristesCard.png */; };
+		09F6BE3615B203E200D12CF7 /* VampiresCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 09F6BE2715B203E200D12CF7 /* VampiresCard.png */; };
+		09F6BE3715B203E200D12CF7 /* VengeursCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 09F6BE2815B203E200D12CF7 /* VengeursCard.png */; };
+		09F6BE3B15B2063100D12CF7 /* Gekkos_Token.png in Resources */ = {isa = PBXBuildFile; fileRef = 09F6BE3815B2062F00D12CF7 /* Gekkos_Token.png */; };
+		09F6BE3C15B2063100D12CF7 /* Gnomes_Token.png in Resources */ = {isa = PBXBuildFile; fileRef = 09F6BE3915B2063000D12CF7 /* Gnomes_Token.png */; };
+		09F6BE3D15B2063100D12CF7 /* Golems_Token.png in Resources */ = {isa = PBXBuildFile; fileRef = 09F6BE3A15B2063000D12CF7 /* Golems_Token.png */; };
+		09F6BE4415B206D500D12CF7 /* EtLeurMusetteCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 09F6BE3E15B206D500D12CF7 /* EtLeurMusetteCard.png */; };
+		09F6BE4515B206D500D12CF7 /* FugacesCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 09F6BE3F15B206D500D12CF7 /* FugacesCard.png */; };
+		09F6BE4615B206D500D12CF7 /* GregairesCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 09F6BE4015B206D500D12CF7 /* GregairesCard.png */; };
+		09F6BE4715B206D500D12CF7 /* ReincarnesCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 09F6BE4115B206D500D12CF7 /* ReincarnesCard.png */; };
+		09F6BE4815B206D500D12CF7 /* RoyauxCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 09F6BE4215B206D500D12CF7 /* RoyauxCard.png */; };
+		09F6BE4915B206D500D12CF7 /* SagesCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 09F6BE4315B206D500D12CF7 /* SagesCard.png */; };
 		A8DF347E1597376600ABE4DB /* HBSFirstViewDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DF347D1597376600ABE4DB /* HBSFirstViewDetailController.m */; };
 		A8E455501594F7330065C9FE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8E4554F1594F7330065C9FE /* UIKit.framework */; };
 		A8E455521594F7330065C9FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8E455511594F7330065C9FE /* Foundation.framework */; };
@@ -232,6 +268,42 @@
 		095D957315A89DFB00C71929 /* CatapultCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CatapultCard.png; sourceTree = "<group>"; };
 		096C3BA215A8A683006E511B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		096C3BA415A8A685006E511B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		09F6BE0115B203C600D12CF7 /* Arachnees_Token.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Arachnees_Token.png; sourceTree = "<group>"; };
+		09F6BE0215B203C600D12CF7 /* Champigneux_Token.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Champigneux_Token.png; sourceTree = "<group>"; };
+		09F6BE0315B203C600D12CF7 /* Cultistes_Token.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cultistes_Token.png; sourceTree = "<group>"; };
+		09F6BE0415B203C600D12CF7 /* ElfesNoirs_Token.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ElfesNoirs_Token.png; sourceTree = "<group>"; };
+		09F6BE0515B203C600D12CF7 /* FeuxFollets_Token.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FeuxFollets_Token.png; sourceTree = "<group>"; };
+		09F6BE0615B203C600D12CF7 /* Flammes_Token.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Flammes_Token.png; sourceTree = "<group>"; };
+		09F6BE0715B203C600D12CF7 /* Liches_Token.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Liches_Token.png; sourceTree = "<group>"; };
+		09F6BE0815B203C600D12CF7 /* Mimics_Token.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mimics_Token.png; sourceTree = "<group>"; };
+		09F6BE0915B203C600D12CF7 /* Momies_Token.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Momies_Token.png; sourceTree = "<group>"; };
+		09F6BE0A15B203C600D12CF7 /* NainsDeFer_Token.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NainsDeFer_Token.png; sourceTree = "<group>"; };
+		09F6BE0B15B203C600D12CF7 /* Ogres_Token.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ogres_Token.png; sourceTree = "<group>"; };
+		09F6BE0C15B203C600D12CF7 /* Poulpeuses_Token.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Poulpeuses_Token.png; sourceTree = "<group>"; };
+		09F6BE1A15B203E200D12CF7 /* CoriacesCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CoriacesCard.png; sourceTree = "<group>"; };
+		09F6BE1B15B203E200D12CF7 /* DeBoueCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DeBoueCard.png; sourceTree = "<group>"; };
+		09F6BE1C15B203E200D12CF7 /* DeCristalCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DeCristalCard.png; sourceTree = "<group>"; };
+		09F6BE1D15B203E200D12CF7 /* DesMinesCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DesMinesCard.png; sourceTree = "<group>"; };
+		09F6BE1E15B203E200D12CF7 /* DesMontagnesCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DesMontagnesCard.png; sourceTree = "<group>"; };
+		09F6BE1F15B203E200D12CF7 /* DoutreTombeCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DoutreTombeCard.png; sourceTree = "<group>"; };
+		09F6BE2015B203E200D12CF7 /* ImmortelsCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ImmortelsCard.png; sourceTree = "<group>"; };
+		09F6BE2115B203E200D12CF7 /* KleptomanesCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KleptomanesCard.png; sourceTree = "<group>"; };
+		09F6BE2215B203E200D12CF7 /* MartyrsCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MartyrsCard.png; sourceTree = "<group>"; };
+		09F6BE2315B203E200D12CF7 /* PecheursCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PecheursCard.png; sourceTree = "<group>"; };
+		09F6BE2415B203E200D12CF7 /* PeureuxCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PeureuxCard.png; sourceTree = "<group>"; };
+		09F6BE2515B203E200D12CF7 /* QuerelleursCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = QuerelleursCard.png; sourceTree = "<group>"; };
+		09F6BE2615B203E200D12CF7 /* TouristesCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TouristesCard.png; sourceTree = "<group>"; };
+		09F6BE2715B203E200D12CF7 /* VampiresCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VampiresCard.png; sourceTree = "<group>"; };
+		09F6BE2815B203E200D12CF7 /* VengeursCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VengeursCard.png; sourceTree = "<group>"; };
+		09F6BE3815B2062F00D12CF7 /* Gekkos_Token.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Gekkos_Token.png; sourceTree = "<group>"; };
+		09F6BE3915B2063000D12CF7 /* Gnomes_Token.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Gnomes_Token.png; sourceTree = "<group>"; };
+		09F6BE3A15B2063000D12CF7 /* Golems_Token.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Golems_Token.png; sourceTree = "<group>"; };
+		09F6BE3E15B206D500D12CF7 /* EtLeurMusetteCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EtLeurMusetteCard.png; sourceTree = "<group>"; };
+		09F6BE3F15B206D500D12CF7 /* FugacesCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FugacesCard.png; sourceTree = "<group>"; };
+		09F6BE4015B206D500D12CF7 /* GregairesCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GregairesCard.png; sourceTree = "<group>"; };
+		09F6BE4115B206D500D12CF7 /* ReincarnesCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ReincarnesCard.png; sourceTree = "<group>"; };
+		09F6BE4215B206D500D12CF7 /* RoyauxCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RoyauxCard.png; sourceTree = "<group>"; };
+		09F6BE4315B206D500D12CF7 /* SagesCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SagesCard.png; sourceTree = "<group>"; };
 		A8DF347C1597376600ABE4DB /* HBSFirstViewDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBSFirstViewDetailController.h; sourceTree = "<group>"; };
 		A8DF347D1597376600ABE4DB /* HBSFirstViewDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBSFirstViewDetailController.m; sourceTree = "<group>"; };
 		A8E4554B1594F7330065C9FE /* SmallWorld Encyclopedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SmallWorld Encyclopedia.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -285,6 +357,21 @@
 		093C06E415A828C800841051 /* tokens */ = {
 			isa = PBXGroup;
 			children = (
+				09F6BE3815B2062F00D12CF7 /* Gekkos_Token.png */,
+				09F6BE3915B2063000D12CF7 /* Gnomes_Token.png */,
+				09F6BE3A15B2063000D12CF7 /* Golems_Token.png */,
+				09F6BE0115B203C600D12CF7 /* Arachnees_Token.png */,
+				09F6BE0215B203C600D12CF7 /* Champigneux_Token.png */,
+				09F6BE0315B203C600D12CF7 /* Cultistes_Token.png */,
+				09F6BE0415B203C600D12CF7 /* ElfesNoirs_Token.png */,
+				09F6BE0515B203C600D12CF7 /* FeuxFollets_Token.png */,
+				09F6BE0615B203C600D12CF7 /* Flammes_Token.png */,
+				09F6BE0715B203C600D12CF7 /* Liches_Token.png */,
+				09F6BE0815B203C600D12CF7 /* Mimics_Token.png */,
+				09F6BE0915B203C600D12CF7 /* Momies_Token.png */,
+				09F6BE0A15B203C600D12CF7 /* NainsDeFer_Token.png */,
+				09F6BE0B15B203C600D12CF7 /* Ogres_Token.png */,
+				09F6BE0C15B203C600D12CF7 /* Poulpeuses_Token.png */,
 				095D955915A897D800C71929 /* Barbarians_Token.png */,
 				095D955A15A897D800C71929 /* Leprechauns_Token.png */,
 				095D955B15A897D800C71929 /* Pixies_Token.png */,
@@ -362,6 +449,27 @@
 		093C073315A83B7A00841051 /* pouvoirs cards */ = {
 			isa = PBXGroup;
 			children = (
+				09F6BE3E15B206D500D12CF7 /* EtLeurMusetteCard.png */,
+				09F6BE3F15B206D500D12CF7 /* FugacesCard.png */,
+				09F6BE4015B206D500D12CF7 /* GregairesCard.png */,
+				09F6BE4115B206D500D12CF7 /* ReincarnesCard.png */,
+				09F6BE4215B206D500D12CF7 /* RoyauxCard.png */,
+				09F6BE4315B206D500D12CF7 /* SagesCard.png */,
+				09F6BE1A15B203E200D12CF7 /* CoriacesCard.png */,
+				09F6BE1B15B203E200D12CF7 /* DeBoueCard.png */,
+				09F6BE1C15B203E200D12CF7 /* DeCristalCard.png */,
+				09F6BE1D15B203E200D12CF7 /* DesMinesCard.png */,
+				09F6BE1E15B203E200D12CF7 /* DesMontagnesCard.png */,
+				09F6BE1F15B203E200D12CF7 /* DoutreTombeCard.png */,
+				09F6BE2015B203E200D12CF7 /* ImmortelsCard.png */,
+				09F6BE2115B203E200D12CF7 /* KleptomanesCard.png */,
+				09F6BE2215B203E200D12CF7 /* MartyrsCard.png */,
+				09F6BE2315B203E200D12CF7 /* PecheursCard.png */,
+				09F6BE2415B203E200D12CF7 /* PeureuxCard.png */,
+				09F6BE2515B203E200D12CF7 /* QuerelleursCard.png */,
+				09F6BE2615B203E200D12CF7 /* TouristesCard.png */,
+				09F6BE2715B203E200D12CF7 /* VampiresCard.png */,
+				09F6BE2815B203E200D12CF7 /* VengeursCard.png */,
 				095D956F15A89DFB00C71929 /* BarricadeCard.png */,
 				095D957015A89DFB00C71929 /* MercenaryCard.png */,
 				095D957115A89DFB00C71929 /* ImperialCard.png */,
@@ -636,6 +744,42 @@
 				09269DAD15B1850A00ED90DB /* NainsDeFerCard.png in Resources */,
 				09269DAE15B1850A00ED90DB /* OgresCard.png in Resources */,
 				09269DAF15B1850A00ED90DB /* PoulpeusesCard.png in Resources */,
+				09F6BE0D15B203C600D12CF7 /* Arachnees_Token.png in Resources */,
+				09F6BE0E15B203C600D12CF7 /* Champigneux_Token.png in Resources */,
+				09F6BE0F15B203C600D12CF7 /* Cultistes_Token.png in Resources */,
+				09F6BE1015B203C600D12CF7 /* ElfesNoirs_Token.png in Resources */,
+				09F6BE1115B203C600D12CF7 /* FeuxFollets_Token.png in Resources */,
+				09F6BE1215B203C600D12CF7 /* Flammes_Token.png in Resources */,
+				09F6BE1315B203C600D12CF7 /* Liches_Token.png in Resources */,
+				09F6BE1415B203C600D12CF7 /* Mimics_Token.png in Resources */,
+				09F6BE1515B203C600D12CF7 /* Momies_Token.png in Resources */,
+				09F6BE1615B203C600D12CF7 /* NainsDeFer_Token.png in Resources */,
+				09F6BE1715B203C600D12CF7 /* Ogres_Token.png in Resources */,
+				09F6BE1815B203C600D12CF7 /* Poulpeuses_Token.png in Resources */,
+				09F6BE2915B203E200D12CF7 /* CoriacesCard.png in Resources */,
+				09F6BE2A15B203E200D12CF7 /* DeBoueCard.png in Resources */,
+				09F6BE2B15B203E200D12CF7 /* DeCristalCard.png in Resources */,
+				09F6BE2C15B203E200D12CF7 /* DesMinesCard.png in Resources */,
+				09F6BE2D15B203E200D12CF7 /* DesMontagnesCard.png in Resources */,
+				09F6BE2E15B203E200D12CF7 /* DoutreTombeCard.png in Resources */,
+				09F6BE2F15B203E200D12CF7 /* ImmortelsCard.png in Resources */,
+				09F6BE3015B203E200D12CF7 /* KleptomanesCard.png in Resources */,
+				09F6BE3115B203E200D12CF7 /* MartyrsCard.png in Resources */,
+				09F6BE3215B203E200D12CF7 /* PecheursCard.png in Resources */,
+				09F6BE3315B203E200D12CF7 /* PeureuxCard.png in Resources */,
+				09F6BE3415B203E200D12CF7 /* QuerelleursCard.png in Resources */,
+				09F6BE3515B203E200D12CF7 /* TouristesCard.png in Resources */,
+				09F6BE3615B203E200D12CF7 /* VampiresCard.png in Resources */,
+				09F6BE3715B203E200D12CF7 /* VengeursCard.png in Resources */,
+				09F6BE3B15B2063100D12CF7 /* Gekkos_Token.png in Resources */,
+				09F6BE3C15B2063100D12CF7 /* Gnomes_Token.png in Resources */,
+				09F6BE3D15B2063100D12CF7 /* Golems_Token.png in Resources */,
+				09F6BE4415B206D500D12CF7 /* EtLeurMusetteCard.png in Resources */,
+				09F6BE4515B206D500D12CF7 /* FugacesCard.png in Resources */,
+				09F6BE4615B206D500D12CF7 /* GregairesCard.png in Resources */,
+				09F6BE4715B206D500D12CF7 /* ReincarnesCard.png in Resources */,
+				09F6BE4815B206D500D12CF7 /* RoyauxCard.png in Resources */,
+				09F6BE4915B206D500D12CF7 /* SagesCard.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
