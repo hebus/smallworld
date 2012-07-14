@@ -243,6 +243,8 @@
 		<string>À chaque fois que vous perdez un Pygmée, lancez le dé de renforts et prenez autant de Pygmées dans la réserve que le résultat du dé, à condition qu&apos;il en reste. Déployez-les dans vos régions à la fin du tour du joueur attaquant.</string>
 	</dict>
 	<dict>
+		<key>image</key>
+		<string>Arachnees</string>
 		<key>peuple</key>
 		<string>Arachnées</string>
 		<key>extension</key>
@@ -251,6 +253,8 @@
 		<string>Pour vos conquêtes, vos Arachnées considèrent toutes les régions partageant une frontière avec un Gouffre sans fond comme adjacentes aux régions qu&apos;elles occupent.Votre première conquête peut être n&apos;importe quelle région partageant une frontière avec un Gouffre sans fond.</string>
 	</dict>
 	<dict>
+		<key>image</key>
+		<string>Champigneux</string>
 		<key>peuple</key>
 		<string>Champigneux</string>
 		<key>extension</key>
@@ -259,6 +263,8 @@
 		<string>Toute Champignonnière occupée par vos Champigneux rapporte 1 jeton de victoire supplémentaire en fin detour.</string>
 	</dict>
 	<dict>
+		<key>image</key>
+		<string>Cultistes</string>
 		<key>peuple</key>
 		<string>Cultistes</string>
 		<key>extension</key>
@@ -267,6 +273,8 @@
 		<string>Placez le Grand Ancien dans la première région conquise par vos Cultistes. Cette région est imprenable. De plus, toute région adjacente au Grand Ancien peut être conquise avec un pion de Peuple de moins que nécessaire, avec un minimum de 1 pion (ceci comprend également les régions rendues adjacentes par l&apos;effet d&apos;une capacité spécifique, d&apos;un Pouvoir Spécial, d&apos;une Relique ou d&apos;un Lieu). Au début de votre tour, vous pouvez déplacer le Grand Ancien dans toute région occupée par vos Cultistes.</string>
 	</dict>
 	<dict>
+		<key>image</key>
+		<string>ElfesNoirs</string>
 		<key>peuple</key>
 		<string>Elfes Noirs</string>
 		<key>extension</key>
@@ -275,6 +283,8 @@
 		<string>Les Elfes Noirs vivent reclus : à la fin de chaque tour, toute région occupée par vos Elfes Noirs et ne partageant aucune frontière avec un autre Peuple actif ou en déclin (votre autre Peuple, ceux de vos adversaires, ou des Monstres) vous rapporte 1 jeton de victoire supplémentaire.</string>
 	</dict>
 	<dict>
+		<key>image</key>
+		<string>FeuxFollets</string>
 		<key>peuple</key>
 		<string>Feux Follets</string>
 		<key>extension</key>
@@ -283,6 +293,8 @@
 		<string>Vous pouvez utiliser le dé de renforts avant de tenter de conquérir une région de cristaux mystiques ou une région adjacente à une région de cristaux mystiques que vos Feux Follets occupent. Indiquez la région visée avant de lancer le dé. En cas de succès, vous êtes obligé de prendre la région, pour peu que vous ayez assez de pions de Peuple.</string>
 	</dict>
 	<dict>
+		<key>image</key>
+		<string>Flammes</string>
 		<key>peuple</key>
 		<string>Flammes</string>
 		<key>extension</key>
@@ -291,6 +303,8 @@
 		<string>Lorsque vous choisissez ce Peuple, placez le volcan sur un des Gouffres sans fond contenant un symbole de volcan. Toute région adjacente au volcan ou reliée de façon continue à celui-ci par des régions occupées par vos Flammes peut être conquise par ces dernières comme si elle était vide.</string>
 	</dict>
 	<dict>
+		<key>image</key>
+		<string>Gekkos</string>
 		<key>peuple</key>
 		<string>Gekkos</string>
 		<key>extension</key>
@@ -299,6 +313,8 @@
 		<string>Vos Gekkos peuvent traverser toute région de rivière, occupée ou non, sans être obligés de la conquérir ou d&apos;y laisser des pions. Si vous souhaitez conquérir une région de rivière occupée (par des Poulpeuses, par exemple), vous devez avoir assez de pions pour le faire, mais les pions utilisés sont redéployés à la fin du tour dans d&apos;autres régions occupés par vos Gekkos. Ils ne doivent en aucun cas rester dans la rivière.</string>
 	</dict>
 	<dict>
+		<key>image</key>
+		<string>Gnomes</string>
 		<key>peuple</key>
 		<string>Gnomes</string>
 		<key>extension</key>
@@ -307,6 +323,8 @@
 		<string>Durant leur tour, les autres joueurs ne peuvent pas utiliser les capacités spécifiques de leur Peuple, ni leur Pouvoir Spécial, pour conquérir des régions occupées parvos Gnomes. Il en va de même pour les Lieux Légendaires et les Reliques Rustiques. Les effets de cette capacité peuvent être indirects : un joueur qui dispose du Tuyau Tortueux (voir p.15) ne pourra pas attaquer vos Gnomes à distance, par exemple. Un Balrog ne pourra pas conquérir une région défendue par des Gnomes. Attention, l&apos;immunité des Gnomes ne fonctionne que pendant le tour des autres joueurs. Pendant le tour des Gnomes, les Lieux Légendaires, Reliques Rustiques, etc. fonctionnent normalement.</string>
 	</dict>
 	<dict>
+		<key>image</key>
+		<string>Golems</string>
 		<key>peuple</key>
 		<string>Golems</string>
 		<key>extension</key>
@@ -315,6 +333,8 @@
 		<string>Lors du Redéploiement de vos troupes, prenez 1 nouveau pion Golem dans le casier de rangement (sous réserve qu&apos;ilen reste) pour toute mare de boue occupée par vos Golems.</string>
 	</dict>
 	<dict>
+		<key>image</key>
+		<string>Liches</string>
 		<key>peuple</key>
 		<string>Liches</string>
 		<key>extension</key>
@@ -323,6 +343,8 @@
 		<string>Lorsqu&apos;un adversaire s&apos;empare d&apos;une région occupée par vos Liches en déclin, vous lui prenez immédiatement un jeton de victoire. S&apos;il n&apos;en a plus, il ne peut pas attaquer vos Liches en déclin.</string>
 	</dict>
 	<dict>
+		<key>image</key>
+		<string>Mimics</string>
 		<key>peuple</key>
 		<string>Mimics</string>
 		<key>extension</key>
@@ -331,6 +353,8 @@
 		<string>Lorsque vous choisissez ce Peuple (p.4), vous pouvez immédiatement échanger leur Pouvoir Spécial contre un des cinq autres disponibles parmi les combinaisons visibles. Vous ne récupérez pas les éventuels jetons de victoire déposés sur la combinaison dont vous prenez le Pouvoir Spécial. Seul le Pouvoir Spécial est échangé.</string>
 	</dict>
 	<dict>
+		<key>image</key>
+		<string>Momies</string>
 		<key>peuple</key>
 		<string>Momies</string>
 		<key>extension</key>
@@ -339,6 +363,8 @@
 		<string>Les Momies sont nombreuses, mais maladroites- ce n&apos;est pas simple de marcher avec tant de bandages. Toutes vos conquêtes nécessitent 1 pion de plus que nécessaire.</string>
 	</dict>
 	<dict>
+		<key>image</key>
+		<string>NainsDeFer</string>
 		<key>peuple</key>
 		<string>Nains de Fer &amp; Leurs Marteaux d&apos;argent</string>
 		<key>extension</key>
@@ -347,14 +373,18 @@
 		<string>Lors du Redéploiement de vos troupes, prenez 1 nouveau pion de Marteau d&apos;argent pour chaque Mine que vos Nains de Fer occupent, et placez-le devant vous. À compter du prochain tour, et jusqu&apos;à ce que vos Nains de Fer passent en déclin, vous pouvez utiliser ces Marteaux d&apos;argent comme autant de pions supplémentaires qui vous serviront en attaque uniquement. À chaque tour, après avoir redéployé vos troupes (voir Redéploiement p.7), retirez tous les Marteaux d&apos;argent du plateau et replacez-les devant vous dans l&apos;attente du prochain tour, en prenant soin de laisser au moins un pion Nain de Fer dans chaque région occupée, dans la mesure du possible.</string>
 	</dict>
 	<dict>
+		<key>image</key>
+		<string>Ogres</string>
 		<key>peuple</key>
-		<string>Orgres</string>
+		<string>Ogres</string>
 		<key>extension</key>
 		<string>Underground</string>
 		<key>pouvoir</key>
 		<string>Vos Ogres peuvent conquérir toute région avec 1 pion de moins que nécessaire, avec un minimum de 1 pion.</string>
 	</dict>
 	<dict>
+		<key>image</key>
+		<string>Poulpeuses</string>
 		<key>peuple</key>
 		<string>Poulpeuses</string>
 		<key>extension</key>

@@ -8,6 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		091949AB15A8AB11009E9AFC /* info.png in Resources */ = {isa = PBXBuildFile; fileRef = 091949AA15A8AB11009E9AFC /* info.png */; };
+		09269DA115B1850A00ED90DB /* ArachneesCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 09269D9215B1850A00ED90DB /* ArachneesCard.png */; };
+		09269DA215B1850A00ED90DB /* ChampigneuxCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 09269D9315B1850A00ED90DB /* ChampigneuxCard.png */; };
+		09269DA315B1850A00ED90DB /* CultistesCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 09269D9415B1850A00ED90DB /* CultistesCard.png */; };
+		09269DA415B1850A00ED90DB /* ElfesNoirsCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 09269D9515B1850A00ED90DB /* ElfesNoirsCard.png */; };
+		09269DA515B1850A00ED90DB /* FeuxFolletsCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 09269D9615B1850A00ED90DB /* FeuxFolletsCard.png */; };
+		09269DA615B1850A00ED90DB /* FlammesCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 09269D9715B1850A00ED90DB /* FlammesCard.png */; };
+		09269DA715B1850A00ED90DB /* GekkosCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 09269D9815B1850A00ED90DB /* GekkosCard.png */; };
+		09269DA815B1850A00ED90DB /* GnomesCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 09269D9915B1850A00ED90DB /* GnomesCard.png */; };
+		09269DA915B1850A00ED90DB /* GolemsCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 09269D9A15B1850A00ED90DB /* GolemsCard.png */; };
+		09269DAA15B1850A00ED90DB /* LichesCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 09269D9B15B1850A00ED90DB /* LichesCard.png */; };
+		09269DAB15B1850A00ED90DB /* MimicsCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 09269D9C15B1850A00ED90DB /* MimicsCard.png */; };
+		09269DAC15B1850A00ED90DB /* MomiesCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 09269D9D15B1850A00ED90DB /* MomiesCard.png */; };
+		09269DAD15B1850A00ED90DB /* NainsDeFerCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 09269D9E15B1850A00ED90DB /* NainsDeFerCard.png */; };
+		09269DAE15B1850A00ED90DB /* OgresCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 09269D9F15B1850A00ED90DB /* OgresCard.png */; };
+		09269DAF15B1850A00ED90DB /* PoulpeusesCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 09269DA015B1850A00ED90DB /* PoulpeusesCard.png */; };
 		0933D74615A8B153004A9523 /* PygmiesCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 0933D74415A8B153004A9523 /* PygmiesCard.png */; };
 		0933D74715A8B153004A9523 /* PixiesCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 0933D74515A8B153004A9523 /* PixiesCard.png */; };
 		093C06F815A828C800841051 /* Amazon_Token.png in Resources */ = {isa = PBXBuildFile; fileRef = 093C06E515A828C800841051 /* Amazon_Token.png */; };
@@ -118,6 +133,21 @@
 
 /* Begin PBXFileReference section */
 		091949AA15A8AB11009E9AFC /* info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info.png; sourceTree = "<group>"; };
+		09269D9215B1850A00ED90DB /* ArachneesCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ArachneesCard.png; sourceTree = "<group>"; };
+		09269D9315B1850A00ED90DB /* ChampigneuxCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ChampigneuxCard.png; sourceTree = "<group>"; };
+		09269D9415B1850A00ED90DB /* CultistesCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CultistesCard.png; sourceTree = "<group>"; };
+		09269D9515B1850A00ED90DB /* ElfesNoirsCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ElfesNoirsCard.png; sourceTree = "<group>"; };
+		09269D9615B1850A00ED90DB /* FeuxFolletsCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FeuxFolletsCard.png; sourceTree = "<group>"; };
+		09269D9715B1850A00ED90DB /* FlammesCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FlammesCard.png; sourceTree = "<group>"; };
+		09269D9815B1850A00ED90DB /* GekkosCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GekkosCard.png; sourceTree = "<group>"; };
+		09269D9915B1850A00ED90DB /* GnomesCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GnomesCard.png; sourceTree = "<group>"; };
+		09269D9A15B1850A00ED90DB /* GolemsCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GolemsCard.png; sourceTree = "<group>"; };
+		09269D9B15B1850A00ED90DB /* LichesCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LichesCard.png; sourceTree = "<group>"; };
+		09269D9C15B1850A00ED90DB /* MimicsCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MimicsCard.png; sourceTree = "<group>"; };
+		09269D9D15B1850A00ED90DB /* MomiesCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MomiesCard.png; sourceTree = "<group>"; };
+		09269D9E15B1850A00ED90DB /* NainsDeFerCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NainsDeFerCard.png; sourceTree = "<group>"; };
+		09269D9F15B1850A00ED90DB /* OgresCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OgresCard.png; sourceTree = "<group>"; };
+		09269DA015B1850A00ED90DB /* PoulpeusesCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PoulpeusesCard.png; sourceTree = "<group>"; };
 		0933D74415A8B153004A9523 /* PygmiesCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PygmiesCard.png; sourceTree = "<group>"; };
 		0933D74515A8B153004A9523 /* PixiesCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PixiesCard.png; sourceTree = "<group>"; };
 		093C06E515A828C800841051 /* Amazon_Token.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Amazon_Token.png; sourceTree = "<group>"; };
@@ -286,6 +316,21 @@
 		093C070C15A8329900841051 /* peuples cards */ = {
 			isa = PBXGroup;
 			children = (
+				09269D9215B1850A00ED90DB /* ArachneesCard.png */,
+				09269D9315B1850A00ED90DB /* ChampigneuxCard.png */,
+				09269D9415B1850A00ED90DB /* CultistesCard.png */,
+				09269D9515B1850A00ED90DB /* ElfesNoirsCard.png */,
+				09269D9615B1850A00ED90DB /* FeuxFolletsCard.png */,
+				09269D9715B1850A00ED90DB /* FlammesCard.png */,
+				09269D9815B1850A00ED90DB /* GekkosCard.png */,
+				09269D9915B1850A00ED90DB /* GnomesCard.png */,
+				09269D9A15B1850A00ED90DB /* GolemsCard.png */,
+				09269D9B15B1850A00ED90DB /* LichesCard.png */,
+				09269D9C15B1850A00ED90DB /* MimicsCard.png */,
+				09269D9D15B1850A00ED90DB /* MomiesCard.png */,
+				09269D9E15B1850A00ED90DB /* NainsDeFerCard.png */,
+				09269D9F15B1850A00ED90DB /* OgresCard.png */,
+				09269DA015B1850A00ED90DB /* PoulpeusesCard.png */,
 				0933D74415A8B153004A9523 /* PygmiesCard.png */,
 				0933D74515A8B153004A9523 /* PixiesCard.png */,
 				095D956415A89B0700C71929 /* HomunculiCard.png */,
@@ -576,6 +621,21 @@
 				091949AB15A8AB11009E9AFC /* info.png in Resources */,
 				0933D74615A8B153004A9523 /* PygmiesCard.png in Resources */,
 				0933D74715A8B153004A9523 /* PixiesCard.png in Resources */,
+				09269DA115B1850A00ED90DB /* ArachneesCard.png in Resources */,
+				09269DA215B1850A00ED90DB /* ChampigneuxCard.png in Resources */,
+				09269DA315B1850A00ED90DB /* CultistesCard.png in Resources */,
+				09269DA415B1850A00ED90DB /* ElfesNoirsCard.png in Resources */,
+				09269DA515B1850A00ED90DB /* FeuxFolletsCard.png in Resources */,
+				09269DA615B1850A00ED90DB /* FlammesCard.png in Resources */,
+				09269DA715B1850A00ED90DB /* GekkosCard.png in Resources */,
+				09269DA815B1850A00ED90DB /* GnomesCard.png in Resources */,
+				09269DA915B1850A00ED90DB /* GolemsCard.png in Resources */,
+				09269DAA15B1850A00ED90DB /* LichesCard.png in Resources */,
+				09269DAB15B1850A00ED90DB /* MimicsCard.png in Resources */,
+				09269DAC15B1850A00ED90DB /* MomiesCard.png in Resources */,
+				09269DAD15B1850A00ED90DB /* NainsDeFerCard.png in Resources */,
+				09269DAE15B1850A00ED90DB /* OgresCard.png in Resources */,
+				09269DAF15B1850A00ED90DB /* PoulpeusesCard.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
