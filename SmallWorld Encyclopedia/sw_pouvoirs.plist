@@ -210,7 +210,7 @@
 		<key>extension</key>
 		<string>Maauuudits!</string>
 		<key>effet</key>
-		<string>Vous pouvez utiliser vos 2 jetonsDe la Horde exactement comme despions de Peuple supplémentaire.Cependant, ils disparaissent lorsque vous passez en déclin.</string>
+		<string>Vous pouvez utiliser vos 2 jetons De la Horde exactement comme des pions de Peuple supplémentaire.Cependant, ils disparaissent lorsque vous passez en déclin.</string>
 	</dict>
 	<dict>
 		<key>image</key>
@@ -240,7 +240,7 @@
 		<key>extension</key>
 		<string>Maauuudits!</string>
 		<key>effet</key>
-		<string>Lors du choix d&apos;une combinaison Peuple -Pouvoir Spécial, vous devez déposer non pas 1, mais 3 jetons de victoire sur lePeuple Maudit si vous choisissez une combinaison placée plus bas ! Le Pouvoir Spécial lui-même n&apos;apporte aucun avantage.</string>
+		<string>Lors du choix d&apos;une combinaison Peuple - Pouvoir Spécial, vous devez déposer non pas 1, mais 3 jetons de victoire sur le Peuple Maudit si vous choisissez une combinaison placée plus bas ! Le Pouvoir Spécial lui-même n&apos;apporte aucun avantage.</string>
 	</dict>
 	<dict>
 		<key>image</key>
@@ -260,7 +260,7 @@
 		<key>extension</key>
 		<string>Honneur aux Dames!</string>
 		<key>effet</key>
-		<string>Lorsque vous choisissez un Peuple Historien, prenez autant de jetons de victoire qu&apos;il y ade Peuples en déclin autour de la table. Par la suite, tant que votre Peuple est actif, prenez un jeton de victoire supplémentaire lorsqu&apos;un Peuple passe en déclin. Enfin, lorsque votre Peuple Historien passe en déclin, prenez un jeton de victoire supplémentaire !</string>
+		<string>Lorsque vous choisissez un Peuple Historien, prenez autant de jetons de victoire qu&apos;il y a de Peuples en déclin autour de la table. Par la suite, tant que votre Peuple est actif, prenez un jeton de victoire supplémentaire lorsqu&apos;un Peuple passe en déclin. Enfin, lorsque votre Peuple Historien passe en déclin, prenez un jeton de victoire supplémentaire !</string>
 	</dict>
 	<dict>
 		<key>image</key>
@@ -280,7 +280,7 @@
 		<key>extension</key>
 		<string>Même pas peur!</string>
 		<key>effet</key>
-		<string>Une fois par tour, vous pouvez placer la Catapulte dans une de vos régions pourfaire une conquête à distance en sautant par-dessus une région (y compris leLac, mais pas les Mers). La région de départ, qui contient la Catapulte, est imprenable et immunisée aux capacités spécifiques et aux Pouvoirs Spéciaux des Peuples adverses. La Catapulte disparaît lors du déclin.</string>
+		<string>Une fois par tour, vous pouvez placer la Catapulte dans une de vos régions pour faire une conquête à distance en sautant par-dessus une région (y compris le Lac, mais pas les Mers). La région de départ, qui contient la Catapulte, est imprenable et immunisée aux capacités spécifiques et aux Pouvoirs Spéciaux des Peuples adverses. La Catapulte disparaît lors du déclin.</string>
 	</dict>
 	<dict>
 		<key>image</key>
@@ -300,7 +300,7 @@
 		<key>extension</key>
 		<string>Même pas peur!</string>
 		<key>effet</key>
-		<string>Si vous occupez plus de 3 régions avec votre Peuple Impérial à la fin de votretour, vous gagnez 1 jeton de victoire en plus pour toute région au-delà de cette limite (si vous occupez 5 régions, vous remportez donc 2 jetons de victoire supplémentaires).</string>
+		<string>Si vous occupez plus de 3 régions avec votre Peuple Impérial à la fin de votre tour, vous gagnez 1 jeton de victoire en plus pour toute région au-delà de cette limite (si vous occupez 5 régions, vous remportez donc 2 jetons de victoire supplémentaires).</string>
 	</dict>
 	<dict>
 		<key>image</key>
